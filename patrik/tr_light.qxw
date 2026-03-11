@@ -147,39 +147,55 @@
   </FixtureGroup>
   <FixtureGroup ID="4">
    <Name>trackpod</Name>
-   <Size X="32" Y="1"/>
-   <Head X="0" Y="0" Fixture="6">7</Head>
-   <Head X="1" Y="0" Fixture="6">6</Head>
-   <Head X="2" Y="0" Fixture="6">5</Head>
-   <Head X="3" Y="0" Fixture="6">4</Head>
-   <Head X="4" Y="0" Fixture="6">3</Head>
-   <Head X="5" Y="0" Fixture="6">2</Head>
-   <Head X="6" Y="0" Fixture="6">1</Head>
-   <Head X="7" Y="0" Fixture="6">0</Head>
-   <Head X="8" Y="0" Fixture="7">7</Head>
-   <Head X="9" Y="0" Fixture="7">6</Head>
-   <Head X="10" Y="0" Fixture="7">5</Head>
-   <Head X="11" Y="0" Fixture="7">4</Head>
-   <Head X="12" Y="0" Fixture="7">3</Head>
-   <Head X="13" Y="0" Fixture="7">2</Head>
-   <Head X="14" Y="0" Fixture="7">1</Head>
-   <Head X="15" Y="0" Fixture="7">0</Head>
-   <Head X="16" Y="0" Fixture="8">7</Head>
-   <Head X="17" Y="0" Fixture="8">6</Head>
-   <Head X="18" Y="0" Fixture="8">5</Head>
-   <Head X="19" Y="0" Fixture="8">4</Head>
-   <Head X="20" Y="0" Fixture="8">3</Head>
-   <Head X="21" Y="0" Fixture="8">2</Head>
-   <Head X="22" Y="0" Fixture="8">1</Head>
-   <Head X="23" Y="0" Fixture="8">0</Head>
-   <Head X="24" Y="0" Fixture="9">7</Head>
-   <Head X="25" Y="0" Fixture="9">6</Head>
-   <Head X="26" Y="0" Fixture="9">5</Head>
-   <Head X="27" Y="0" Fixture="9">4</Head>
-   <Head X="28" Y="0" Fixture="9">3</Head>
-   <Head X="29" Y="0" Fixture="9">2</Head>
-   <Head X="30" Y="0" Fixture="9">1</Head>
-   <Head X="31" Y="0" Fixture="9">0</Head>
+   <Size X="48" Y="1"/>
+   <Head X="0" Y="0" Fixture="14">7</Head>
+   <Head X="1" Y="0" Fixture="14">6</Head>
+   <Head X="2" Y="0" Fixture="14">5</Head>
+   <Head X="3" Y="0" Fixture="14">4</Head>
+   <Head X="4" Y="0" Fixture="14">3</Head>
+   <Head X="5" Y="0" Fixture="14">2</Head>
+   <Head X="6" Y="0" Fixture="14">1</Head>
+   <Head X="7" Y="0" Fixture="14">0</Head>
+   <Head X="8" Y="0" Fixture="6">7</Head>
+   <Head X="9" Y="0" Fixture="6">6</Head>
+   <Head X="10" Y="0" Fixture="6">5</Head>
+   <Head X="11" Y="0" Fixture="6">4</Head>
+   <Head X="12" Y="0" Fixture="6">3</Head>
+   <Head X="13" Y="0" Fixture="6">2</Head>
+   <Head X="14" Y="0" Fixture="6">1</Head>
+   <Head X="15" Y="0" Fixture="6">0</Head>
+   <Head X="16" Y="0" Fixture="7">7</Head>
+   <Head X="17" Y="0" Fixture="7">6</Head>
+   <Head X="18" Y="0" Fixture="7">5</Head>
+   <Head X="19" Y="0" Fixture="7">4</Head>
+   <Head X="20" Y="0" Fixture="7">3</Head>
+   <Head X="21" Y="0" Fixture="7">2</Head>
+   <Head X="22" Y="0" Fixture="7">1</Head>
+   <Head X="23" Y="0" Fixture="7">0</Head>
+   <Head X="24" Y="0" Fixture="8">7</Head>
+   <Head X="25" Y="0" Fixture="8">6</Head>
+   <Head X="26" Y="0" Fixture="8">5</Head>
+   <Head X="27" Y="0" Fixture="8">4</Head>
+   <Head X="28" Y="0" Fixture="8">3</Head>
+   <Head X="29" Y="0" Fixture="8">2</Head>
+   <Head X="30" Y="0" Fixture="8">1</Head>
+   <Head X="31" Y="0" Fixture="8">0</Head>
+   <Head X="32" Y="0" Fixture="9">7</Head>
+   <Head X="33" Y="0" Fixture="9">6</Head>
+   <Head X="34" Y="0" Fixture="9">5</Head>
+   <Head X="35" Y="0" Fixture="9">4</Head>
+   <Head X="36" Y="0" Fixture="9">3</Head>
+   <Head X="37" Y="0" Fixture="9">2</Head>
+   <Head X="38" Y="0" Fixture="9">1</Head>
+   <Head X="39" Y="0" Fixture="9">0</Head>
+   <Head X="40" Y="0" Fixture="16">7</Head>
+   <Head X="41" Y="0" Fixture="16">6</Head>
+   <Head X="42" Y="0" Fixture="16">5</Head>
+   <Head X="43" Y="0" Fixture="16">4</Head>
+   <Head X="44" Y="0" Fixture="16">3</Head>
+   <Head X="45" Y="0" Fixture="16">2</Head>
+   <Head X="46" Y="0" Fixture="16">1</Head>
+   <Head X="47" Y="0" Fixture="16">0</Head>
   </FixtureGroup>
   <Function ID="3" Type="Scene" Name="smoke">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -533,6 +549,22 @@
       <Channel Fixture="9">33</Channel>
       <Channel Fixture="9">39</Channel>
       <Channel Fixture="9">45</Channel>
+      <Channel Fixture="14">3</Channel>
+      <Channel Fixture="14">9</Channel>
+      <Channel Fixture="14">15</Channel>
+      <Channel Fixture="14">21</Channel>
+      <Channel Fixture="14">27</Channel>
+      <Channel Fixture="14">33</Channel>
+      <Channel Fixture="14">39</Channel>
+      <Channel Fixture="14">45</Channel>
+      <Channel Fixture="16">3</Channel>
+      <Channel Fixture="16">9</Channel>
+      <Channel Fixture="16">15</Channel>
+      <Channel Fixture="16">21</Channel>
+      <Channel Fixture="16">27</Channel>
+      <Channel Fixture="16">33</Channel>
+      <Channel Fixture="16">39</Channel>
+      <Channel Fixture="16">45</Channel>
      </Level>
     </Slider>
     <Slider Caption="track red" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
@@ -574,6 +606,22 @@
       <Channel Fixture="9">31</Channel>
       <Channel Fixture="9">37</Channel>
       <Channel Fixture="9">43</Channel>
+      <Channel Fixture="14">1</Channel>
+      <Channel Fixture="14">7</Channel>
+      <Channel Fixture="14">13</Channel>
+      <Channel Fixture="14">19</Channel>
+      <Channel Fixture="14">25</Channel>
+      <Channel Fixture="14">31</Channel>
+      <Channel Fixture="14">37</Channel>
+      <Channel Fixture="14">43</Channel>
+      <Channel Fixture="16">1</Channel>
+      <Channel Fixture="16">7</Channel>
+      <Channel Fixture="16">13</Channel>
+      <Channel Fixture="16">19</Channel>
+      <Channel Fixture="16">25</Channel>
+      <Channel Fixture="16">31</Channel>
+      <Channel Fixture="16">37</Channel>
+      <Channel Fixture="16">43</Channel>
      </Level>
     </Slider>
     <Slider Caption="track green" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
@@ -615,6 +663,22 @@
       <Channel Fixture="9">32</Channel>
       <Channel Fixture="9">38</Channel>
       <Channel Fixture="9">44</Channel>
+      <Channel Fixture="14">2</Channel>
+      <Channel Fixture="14">8</Channel>
+      <Channel Fixture="14">14</Channel>
+      <Channel Fixture="14">20</Channel>
+      <Channel Fixture="14">26</Channel>
+      <Channel Fixture="14">32</Channel>
+      <Channel Fixture="14">38</Channel>
+      <Channel Fixture="14">44</Channel>
+      <Channel Fixture="16">2</Channel>
+      <Channel Fixture="16">8</Channel>
+      <Channel Fixture="16">14</Channel>
+      <Channel Fixture="16">20</Channel>
+      <Channel Fixture="16">26</Channel>
+      <Channel Fixture="16">32</Channel>
+      <Channel Fixture="16">38</Channel>
+      <Channel Fixture="16">44</Channel>
      </Level>
     </Slider>
    </Frame>
