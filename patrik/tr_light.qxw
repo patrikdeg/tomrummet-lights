@@ -87,7 +87,7 @@
    <ID>10</ID>
    <Name>Generic RGB [11]</Name>
    <Universe>0</Universe>
-   <Address>281</Address>
+   <Address>288</Address>
    <Channels>3</Channels>
   </Fixture>
   <Fixture>
