@@ -21,36 +21,6 @@
    <Universe Name="Universe 5" ID="4"/>
   </InputOutputMap>
   <Fixture>
-   <Manufacturer>Stairville</Manufacturer>
-   <Model>LED PAR56</Model>
-   <Mode>Mode 1</Mode>
-   <ID>0</ID>
-   <Name>LED PAR56 [1]</Name>
-   <Universe>0</Universe>
-   <Address>0</Address>
-   <Channels>5</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Stairville</Manufacturer>
-   <Model>LED PAR56</Model>
-   <Mode>Mode 1</Mode>
-   <ID>1</ID>
-   <Name>LED PAR56 [2]</Name>
-   <Universe>0</Universe>
-   <Address>5</Address>
-   <Channels>5</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>American DJ</Manufacturer>
-   <Model>ProPAR 56RGB</Model>
-   <Mode>ParPRO 56RGB</Mode>
-   <ID>2</ID>
-   <Name>ProPAR 56RGB [3]</Name>
-   <Universe>0</Universe>
-   <Address>10</Address>
-   <Channels>7</Channels>
-  </Fixture>
-  <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic Smoke</Model>
    <Mode>Normal</Mode>
@@ -69,16 +39,6 @@
    <Universe>0</Universe>
    <Address>19</Address>
    <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Stairville</Manufacturer>
-   <Model>LED Par56 MKII RGBW</Model>
-   <Mode>Full</Mode>
-   <ID>5</ID>
-   <Name>LED Par56 MKII RGBW [6]</Name>
-   <Universe>0</Universe>
-   <Address>20</Address>
-   <Channels>8</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Alkalite</Manufacturer>
@@ -165,7 +125,7 @@
    <Model>Tracpod 81</Model>
    <Mode>48 Channel</Mode>
    <ID>14</ID>
-   <Name>Tracpod 81 NY-1 [adr241]</Name>
+   <Name>Tracpod VÄ-1 [adr241]</Name>
    <Universe>0</Universe>
    <Address>240</Address>
    <Channels>48</Channels>
@@ -174,52 +134,12 @@
    <Manufacturer>Alkalite</Manufacturer>
    <Model>Tracpod 81</Model>
    <Mode>48 Channel</Mode>
-   <ID>15</ID>
-   <Name>Tracpod 81 NY-2 [adr289]</Name>
-   <Universe>0</Universe>
-   <Address>288</Address>
-   <Channels>48</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Alkalite</Manufacturer>
-   <Model>Tracpod 81</Model>
-   <Mode>48 Channel</Mode>
    <ID>16</ID>
-   <Name>Tracpod 81 NY-3 [adr337]</Name>
+   <Name>Tracpod HÖ-1 [adr337]</Name>
    <Universe>0</Universe>
    <Address>336</Address>
    <Channels>48</Channels>
   </Fixture>
-  <Fixture>
-   <Manufacturer>Alkalite</Manufacturer>
-   <Model>Tracpod 81</Model>
-   <Mode>48 Channel</Mode>
-   <ID>17</ID>
-   <Name>Tracpod 81 NY-4 [adr385]</Name>
-   <Universe>0</Universe>
-   <Address>384</Address>
-   <Channels>48</Channels>
-  </Fixture>
-  <FixtureGroup ID="0">
-   <Name>par lights.</Name>
-   <Size X="2" Y="2"/>
-   <Head X="0" Y="0" Fixture="2">0</Head>
-   <Head X="1" Y="0" Fixture="0">0</Head>
-   <Head X="0" Y="1" Fixture="5">0</Head>
-   <Head X="1" Y="1" Fixture="1">0</Head>
-  </FixtureGroup>
-  <FixtureGroup ID="1">
-   <Name>par lights scene back</Name>
-   <Size X="2" Y="1"/>
-   <Head X="0" Y="0" Fixture="2">0</Head>
-   <Head X="1" Y="0" Fixture="0">0</Head>
-  </FixtureGroup>
-  <FixtureGroup ID="2">
-   <Name>par stage front</Name>
-   <Size X="2" Y="1"/>
-   <Head X="0" Y="0" Fixture="5">0</Head>
-   <Head X="1" Y="0" Fixture="1">0</Head>
-  </FixtureGroup>
   <FixtureGroup ID="3">
    <Name>strobb</Name>
    <Size X="1" Y="1"/>
@@ -261,38 +181,6 @@
    <Head X="30" Y="0" Fixture="9">1</Head>
    <Head X="31" Y="0" Fixture="9">0</Head>
   </FixtureGroup>
-  <Function ID="0" Type="RGBMatrix" Name="all par strobb">
-   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Strobe</Algorithm>
-   <Color Index="0">4294967295</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="frequency" Value="2"/>
-  </Function>
-  <Function ID="1" Type="RGBMatrix" Name="blinders back">
-   <Speed FadeIn="50" FadeOut="250" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Blinder</Algorithm>
-   <Color Index="0">4294967295</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>1</FixtureGroup>
-  </Function>
-  <Function ID="2" Type="RGBMatrix" Name="rainbow puke">
-   <Speed FadeIn="0" FadeOut="0" Duration="300"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Plasma</Algorithm>
-   <Color Index="0">4294901760</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="presetIndex" Value="Rainbow"/>
-   <Property Name="presetSize" Value="13"/>
-   <Property Name="ramp" Value="30"/>
-   <Property Name="stepsize" Value="50"/>
-  </Function>
   <Function ID="3" Type="Scene" Name="smoke">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">0,255</FixtureVal>
@@ -308,94 +196,6 @@
   <Function ID="6" Type="Scene" Name="atomic strobe slow">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="4">0,62</FixtureVal>
-  </Function>
-  <Function ID="7" Type="RGBMatrix" Name="all par red">
-   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Plain"/>
-   <Color Index="0">4294901760</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-  </Function>
-  <Function ID="8" Type="RGBMatrix" Name="all par green">
-   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Plain"/>
-   <Color Index="0">4278255360</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-  </Function>
-  <Function ID="9" Type="RGBMatrix" Name="all par blue">
-   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Plain"/>
-   <Color Index="0">4278190335</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-  </Function>
-  <Function ID="10" Type="RGBMatrix" Name="all par yellow">
-   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Plain"/>
-   <Color Index="0">4294967040</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-  </Function>
-  <Function ID="11" Type="RGBMatrix" Name="all PAR purple">
-   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Plain"/>
-   <Color Index="0">4294902015</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-  </Function>
-  <Function ID="12" Type="RGBMatrix" Name="all par baby blue">
-   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Plain"/>
-   <Color Index="0">4278255615</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-  </Function>
-  <Function ID="13" Type="RGBMatrix" Name="random shit">
-   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Snow or Bubbles</Algorithm>
-   <Color Index="0">4294901760</Color>
-   <Color Index="1">4278229504</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="multiColor" Value="Yes"/>
-   <Property Name="presetflakes" Value="10"/>
-   <Property Name="reverse" Value="No"/>
-   <Property Name="windchill" Value="Yes"/>
-  </Function>
-  <Function ID="14" Type="RGBMatrix" Name="par lights wave out/in">
-   <Speed FadeIn="0" FadeOut="300" Duration="500"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Waves</Algorithm>
-   <Color Index="0">4278190190</Color>
-   <Color Index="1">4278255360</Color>
-   <ControlMode>RGB</ControlMode>
-   <FixtureGroup>0</FixtureGroup>
-   <Property Name="direction" Value="Left"/>
-   <Property Name="orientation" Value="Vertical"/>
-   <Property Name="tailfade" Value="Yes"/>
-   <Property Name="taillength" Value="9"/>
   </Function>
   <Function ID="15" Type="RGBMatrix" Name="knight rider">
    <Speed FadeIn="0" FadeOut="0" Duration="50"/>
@@ -446,11 +246,6 @@
    <Color Index="0">4294967295</Color>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>4</FixtureGroup>
-  </Function>
-  <Function ID="20" Type="Scene" Name="PAR Dimmers ON">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">3,255</FixtureVal>
-   <FixtureVal ID="5">6,255</FixtureVal>
   </Function>
   <!-- Revo III scenes -->
   <Function ID="50" Type="Scene" Name="Revo Pattern 05">
@@ -580,12 +375,8 @@
    <ValueStyle>0</ValueStyle>
    <Grid Width="5" Height="3" Depth="5" Units="0" POV="1"/>
    <StageItem>2</StageItem>
-   <FxItem ID="0" XPos="4945.81" YPos="2810.24" ZPos="302.866" XRot="-40" YRot="133" ZRot="69"/>
-   <FxItem ID="1" XPos="4904.86" YPos="2801" ZPos="4701.56" XRot="-26" YRot="84" ZRot="85"/>
-   <FxItem ID="2" XPos="-147.189" YPos="2822.68" ZPos="329.669" XRot="-113" YRot="92" ZRot="69"/>
    <FxItem ID="3" XPos="-360.211" YPos="37.1752" ZPos="293.687" YRot="-54"/>
    <FxItem ID="4" XPos="-253" YPos="2805" ZPos="2641" XRot="-114" YRot="-87"/>
-   <FxItem ID="5" XPos="-34.2317" YPos="2800.46" ZPos="4803.43" XRot="-12" YRot="50" ZRot="-34"/>
    <FxItem ID="6" XPos="601.627" YPos="2869.72" ZPos="-13.187" XRot="-150"/>
    <FxItem ID="7" XPos="1576.59" YPos="2960.59" ZPos="1.31841" XRot="-150"/>
    <FxItem ID="8" XPos="2596.46" YPos="2911.94" ZPos="-18.6159" XRot="-150"/>
@@ -660,107 +451,15 @@
      <Action>Toggle</Action>
     </Button>
    </Frame>
-   <Frame Caption="Frame 25" ID="24">
-    <WindowState Visible="True" X="464" Y="7" Width="191" Height="591"/>
+   <Frame Caption="Misc" ID="4">
+    <WindowState Visible="True" X="6" Y="4" Width="200" Height="120"/>
     <AllowResize>True</AllowResize>
-    <ShowHeader>False</ShowHeader>
+    <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Slider Caption="Blue" ID="27" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="125" Y="50" Width="58" Height="492"/>
-     <Appearance>
-      <BackgroundColor>4278190335</BackgroundColor>
-     </Appearance>
-     <Input ID="0" Universe="0" Channel="226"/>
-     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="0">3</Channel>
-      <Channel Fixture="1">3</Channel>
-      <Channel Fixture="2">2</Channel>
-      <Channel Fixture="5">2</Channel>
-     </Level>
-    </Slider>
-    <Slider Caption="Red" ID="25" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="2" Y="49" Width="62" Height="493"/>
-     <Appearance>
-      <BackgroundColor>4294901760</BackgroundColor>
-     </Appearance>
-     <Input ID="0" Universe="0" Channel="224"/>
-     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="0">1</Channel>
-      <Channel Fixture="1">1</Channel>
-      <Channel Fixture="2">0</Channel>
-      <Channel Fixture="5">0</Channel>
-     </Level>
-    </Slider>
-    <Slider Caption="Green" ID="26" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="63" Y="49" Width="62" Height="493"/>
-     <Appearance>
-      <BackgroundColor>4278255360</BackgroundColor>
-     </Appearance>
-     <Input ID="0" Universe="0" Channel="225"/>
-     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="0">2</Channel>
-      <Channel Fixture="1">2</Channel>
-      <Channel Fixture="2">1</Channel>
-      <Channel Fixture="5">1</Channel>
-     </Level>
-    </Slider>
-    <Label Caption="PAR light clour mix" ID="28">
-     <WindowState Visible="True" X="5" Y="2" Width="176" Height="46"/>
-    </Label>
-   </Frame>
-   <Frame Caption="Frame 5" ID="4">
-    <Appearance>
-     <BackgroundColor>4294967193</BackgroundColor>
-    </Appearance>
-    <WindowState Visible="True" X="6" Y="4" Width="423" Height="294"/>
-    <AllowResize>True</AllowResize>
-    <ShowHeader>False</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-    <Button Caption="all par red" ID="13">
-     <WindowState Visible="True" X="247" Y="72" Width="68" Height="67"/>
-     <Appearance>
-      <BackgroundColor>4294901760</BackgroundColor>
-     </Appearance>
-     <Function ID="7"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="148"/>
-    </Button>
-    <Button Caption="all par blue" ID="7">
-     <WindowState Visible="True" X="175" Y="2" Width="67" Height="67"/>
-     <Appearance>
-      <BackgroundColor>4278190335</BackgroundColor>
-     </Appearance>
-     <Function ID="9"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="131"/>
-    </Button>
-    <Button Caption="rainbow puke" ID="9">
-     <WindowState Visible="True" X="353" Y="0" Width="70" Height="70"/>
-     <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
-     </Appearance>
-     <Function ID="2"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="134"/>
-    </Button>
-    <Button Caption="all par strobb" ID="5">
-     <WindowState Visible="True" X="0" Y="0" Width="66" Height="66"/>
-     <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
-     </Appearance>
-     <Function ID="0"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="128"/>
-    </Button>
     <Button Caption="smoke" ID="20">
-     <WindowState Visible="True" X="0" Y="235" Width="70" Height="58"/>
+     <WindowState Visible="True" X="5" Y="35" Width="90" Height="60"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -768,96 +467,6 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="176"/>
     </Button>
-    <Button Caption="all PAR purple" ID="12">
-     <WindowState Visible="True" X="176" Y="71" Width="68" Height="68"/>
-     <Appearance>
-      <BackgroundColor>4288217343</BackgroundColor>
-     </Appearance>
-     <Function ID="11"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="147"/>
-    </Button>
-    <Button Caption="all par green" ID="17">
-     <WindowState Visible="True" X="176" Y="141" Width="67" Height="66"/>
-     <Appearance>
-      <BackgroundColor>4278255360</BackgroundColor>
-     </Appearance>
-     <Function ID="8"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="163"/>
-    </Button>
-    <Button Caption="all par baby blue" ID="18">
-     <WindowState Visible="True" X="247" Y="142" Width="69" Height="65"/>
-     <Appearance>
-      <BackgroundColor>4278255615</BackgroundColor>
-     </Appearance>
-     <Function ID="12"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="164"/>
-    </Button>
-    <Button Caption="Button 16" ID="15">
-     <WindowState Visible="True" X="164" Y="317" Width="66" Height="66"/>
-     <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
-     </Appearance>
-     <Function ID="4294967295"/>
-     <Action>Toggle</Action>
-    </Button>
-    <Button Caption="blinders back" ID="10">
-     <WindowState Visible="True" X="0" Y="70" Width="66" Height="66"/>
-     <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
-     </Appearance>
-     <Function ID="1"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="144"/>
-    </Button>
-    <Button Caption="random shit" ID="14">
-     <WindowState Visible="True" X="353" Y="72" Width="69" Height="66"/>
-     <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
-     </Appearance>
-     <Function ID="13"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="150"/>
-    </Button>
-    <Button Caption="all par yellow" ID="8">
-     <WindowState Visible="True" X="248" Y="3" Width="68" Height="67"/>
-     <Appearance>
-      <ForegroundColor>4278190080</ForegroundColor>
-      <BackgroundColor>4294967040</BackgroundColor>
-     </Appearance>
-     <Function ID="10"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="132"/>
-    </Button>
-    <Button Caption="par lights wave out/in" ID="19">
-     <WindowState Visible="True" X="353" Y="141" Width="68" Height="67"/>
-     <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
-     </Appearance>
-     <Function ID="14"/>
-     <Action>Toggle</Action>
-     <Input ID="0" Universe="0" Channel="166"/>
-    </Button>
-    <Button Caption="PAR Dim ON" ID="35">
-     <WindowState Visible="True" X="200" Y="235" Width="90" Height="58"/>
-     <Appearance>
-      <ForegroundColor>4278190080</ForegroundColor>
-      <BackgroundColor>4294944000</BackgroundColor>
-     </Appearance>
-     <Function ID="20"/>
-     <Action>Toggle</Action>
-    </Button>
-    <Label Caption="Par light effects" ID="29">
-     <WindowState Visible="True" X="329" Y="211" Width="97" Height="31"/>
-    </Label>
-    <Label Caption="&lt;--- push here for smoke" ID="31">
-     <WindowState Visible="True" X="71" Y="234" Width="127" Height="59"/>
-    </Label>
-    <Label Caption="Par light static clours" ID="30">
-     <WindowState Visible="True" X="176" Y="199" Width="141" Height="34"/>
-    </Label>
    </Frame>
    <Slider Caption="atomic strobb" ID="21" WidgetStyle="Slider" InvertedAppearance="false">
     <WindowState Visible="True" X="720" Y="6" Width="125" Height="590"/>
