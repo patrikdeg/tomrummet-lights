@@ -122,7 +122,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>Alkalite</Manufacturer>
-   <Model>Tracpod 81</Model>
+   <Model>Tracpod 81 GRB</Model>
    <Mode>48 Channel</Mode>
    <ID>14</ID>
    <Name>Tracpod VÄ-1 [adr241]</Name>
@@ -606,14 +606,14 @@
       <Channel Fixture="9">31</Channel>
       <Channel Fixture="9">37</Channel>
       <Channel Fixture="9">43</Channel>
-      <Channel Fixture="14">1</Channel>
-      <Channel Fixture="14">7</Channel>
-      <Channel Fixture="14">13</Channel>
-      <Channel Fixture="14">19</Channel>
-      <Channel Fixture="14">25</Channel>
-      <Channel Fixture="14">31</Channel>
-      <Channel Fixture="14">37</Channel>
-      <Channel Fixture="14">43</Channel>
+      <Channel Fixture="14">2</Channel>
+      <Channel Fixture="14">8</Channel>
+      <Channel Fixture="14">14</Channel>
+      <Channel Fixture="14">20</Channel>
+      <Channel Fixture="14">26</Channel>
+      <Channel Fixture="14">32</Channel>
+      <Channel Fixture="14">38</Channel>
+      <Channel Fixture="14">44</Channel>
       <Channel Fixture="16">1</Channel>
       <Channel Fixture="16">7</Channel>
       <Channel Fixture="16">13</Channel>
@@ -663,14 +663,14 @@
       <Channel Fixture="9">32</Channel>
       <Channel Fixture="9">38</Channel>
       <Channel Fixture="9">44</Channel>
-      <Channel Fixture="14">2</Channel>
-      <Channel Fixture="14">8</Channel>
-      <Channel Fixture="14">14</Channel>
-      <Channel Fixture="14">20</Channel>
-      <Channel Fixture="14">26</Channel>
-      <Channel Fixture="14">32</Channel>
-      <Channel Fixture="14">38</Channel>
-      <Channel Fixture="14">44</Channel>
+      <Channel Fixture="14">1</Channel>
+      <Channel Fixture="14">7</Channel>
+      <Channel Fixture="14">13</Channel>
+      <Channel Fixture="14">19</Channel>
+      <Channel Fixture="14">25</Channel>
+      <Channel Fixture="14">31</Channel>
+      <Channel Fixture="14">37</Channel>
+      <Channel Fixture="14">43</Channel>
       <Channel Fixture="16">2</Channel>
       <Channel Fixture="16">8</Channel>
       <Channel Fixture="16">14</Channel>
