@@ -12,7 +12,7 @@
    <Universe Name="Universe 1" ID="0" Passthrough="True">
     <Input Plugin="MIDI" UID="None" Line="6" Profile="Novation Launchpad"/>
     <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AU04859C)" Line="0">
-     <PluginParameters UniverseChannels="301"/>
+     <PluginParameters UniverseChannels="512"/>
     </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
@@ -159,6 +159,46 @@
    <Universe>0</Universe>
    <Address>230</Address>
    <Channels>10</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Alkalite</Manufacturer>
+   <Model>Tracpod 81</Model>
+   <Mode>48 Channel</Mode>
+   <ID>14</ID>
+   <Name>Tracpod 81 NY-1 [adr241]</Name>
+   <Universe>0</Universe>
+   <Address>240</Address>
+   <Channels>48</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Alkalite</Manufacturer>
+   <Model>Tracpod 81</Model>
+   <Mode>48 Channel</Mode>
+   <ID>15</ID>
+   <Name>Tracpod 81 NY-2 [adr289]</Name>
+   <Universe>0</Universe>
+   <Address>288</Address>
+   <Channels>48</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Alkalite</Manufacturer>
+   <Model>Tracpod 81</Model>
+   <Mode>48 Channel</Mode>
+   <ID>16</ID>
+   <Name>Tracpod 81 NY-3 [adr337]</Name>
+   <Universe>0</Universe>
+   <Address>336</Address>
+   <Channels>48</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Alkalite</Manufacturer>
+   <Model>Tracpod 81</Model>
+   <Mode>48 Channel</Mode>
+   <ID>17</ID>
+   <Name>Tracpod 81 NY-4 [adr385]</Name>
+   <Universe>0</Universe>
+   <Address>384</Address>
+   <Channels>48</Channels>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>par lights.</Name>
@@ -407,6 +447,11 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>4</FixtureGroup>
   </Function>
+  <Function ID="20" Type="Scene" Name="PAR Dimmers ON">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">3,255</FixtureVal>
+   <FixtureVal ID="5">6,255</FixtureVal>
+  </Function>
   <!-- Revo III scenes -->
   <Function ID="50" Type="Scene" Name="Revo Pattern 05">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -420,13 +465,13 @@
   </Function>
   <Function ID="52" Type="Scene" Name="Revo Chase Slow">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="12">0,130,3,50,9,255</FixtureVal>
-   <FixtureVal ID="13">0,130,3,50,9,255</FixtureVal>
+   <FixtureVal ID="12">0,130,8,50,9,255</FixtureVal>
+   <FixtureVal ID="13">0,130,8,50,9,255</FixtureVal>
   </Function>
   <Function ID="53" Type="Scene" Name="Revo Chase Fast">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="12">0,170,3,200,9,255</FixtureVal>
-   <FixtureVal ID="13">0,170,3,200,9,255</FixtureVal>
+   <FixtureVal ID="12">0,170,8,200,9,255</FixtureVal>
+   <FixtureVal ID="13">0,170,8,200,9,255</FixtureVal>
   </Function>
   <Function ID="54" Type="Scene" Name="Revo Strobe">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -795,6 +840,15 @@
      <Action>Toggle</Action>
      <Input ID="0" Universe="0" Channel="166"/>
     </Button>
+    <Button Caption="PAR Dim ON" ID="35">
+     <WindowState Visible="True" X="200" Y="235" Width="90" Height="58"/>
+     <Appearance>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4294944000</BackgroundColor>
+     </Appearance>
+     <Function ID="20"/>
+     <Action>Toggle</Action>
+    </Button>
     <Label Caption="Par light effects" ID="29">
      <WindowState Visible="True" X="329" Y="211" Width="97" Height="31"/>
     </Label>
@@ -999,7 +1053,7 @@
     <Button Caption="Rainbow" ID="79"><WindowState Visible="True" X="5" Y="100" Width="100" Height="50"/><Appearance><BackgroundColor>4282664004</BackgroundColor></Appearance><Function ID="48"/><Action>Toggle</Action></Button>
    </Frame>
    <Slider Caption="Revo Dim" ID="80" WidgetStyle="Slider" InvertedAppearance="false"><WindowState Visible="True" X="720" Y="6" Width="80" Height="400"/><Appearance><BackgroundColor>4282664004</BackgroundColor></Appearance><SliderMode ValueDisplayStyle="Percentage">Level</SliderMode><Level LowLimit="0" HighLimit="255" Value="0"><Channel Fixture="12">9</Channel><Channel Fixture="13">9</Channel></Level></Slider>
-   <Slider Caption="Revo Spd" ID="81" WidgetStyle="Slider" InvertedAppearance="false"><WindowState Visible="True" X="810" Y="6" Width="80" Height="400"/><Appearance><BackgroundColor>4282664004</BackgroundColor></Appearance><SliderMode ValueDisplayStyle="Percentage">Level</SliderMode><Level LowLimit="0" HighLimit="255" Value="0"><Channel Fixture="12">3</Channel><Channel Fixture="13">3</Channel></Level></Slider>
+   <Slider Caption="Revo Spd" ID="81" WidgetStyle="Slider" InvertedAppearance="false"><WindowState Visible="True" X="810" Y="6" Width="80" Height="400"/><Appearance><BackgroundColor>4282664004</BackgroundColor></Appearance><SliderMode ValueDisplayStyle="Percentage">Level</SliderMode><Level LowLimit="0" HighLimit="255" Value="0"><Channel Fixture="12">8</Channel><Channel Fixture="13">8</Channel></Level></Slider>
    <Slider Caption="Grand master" ID="82" WidgetStyle="Slider" InvertedAppearance="false"><WindowState Visible="True" X="958" Y="7" Width="106" Height="586"/><Appearance><BackgroundColor>4282664004</BackgroundColor></Appearance><SliderMode ValueDisplayStyle="Percentage">GrandMaster</SliderMode><Level LowLimit="0" HighLimit="255" Value="255"/></Slider>
   </Frame>
   <Frame Caption="Page 3" ID="2">
