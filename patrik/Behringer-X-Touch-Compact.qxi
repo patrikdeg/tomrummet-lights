@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>Patrik / Tomrummet</Author>
+ </Creator>
+ <Manufacturer>Behringer</Manufacturer>
+ <Model>X-Touch Compact</Model>
+ <Type>MIDI</Type>
+ <MIDISendNoteOff>True</MIDISendNoteOff>
+
+ <!-- ============================================ -->
+ <!-- LAYER A "Mixer Control" (MIDI Channel 1)     -->
+ <!-- ============================================ -->
+
+ <!-- Faders 1-9 (CC 1-9) -->
+ <Channel Number="1">
+  <Name>A Fader 1</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="2">
+  <Name>A Fader 2</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="3">
+  <Name>A Fader 3</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="4">
+  <Name>A Fader 4</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="5">
+  <Name>A Fader 5</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="6">
+  <Name>A Fader 6</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="7">
+  <Name>A Fader 7</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="8">
+  <Name>A Fader 8</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="9">
+  <Name>A Fader 9 (Master)</Name>
+  <Type>Slider</Type>
+ </Channel>
+
+ <!-- Encoders 1-8 Turn (CC 10-17) -->
+ <Channel Number="10">
+  <Name>A Encoder 1</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="11">
+  <Name>A Encoder 2</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="12">
+  <Name>A Encoder 3</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="13">
+  <Name>A Encoder 4</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="14">
+  <Name>A Encoder 5</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="15">
+  <Name>A Encoder 6</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="16">
+  <Name>A Encoder 7</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="17">
+  <Name>A Encoder 8</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+
+ <!-- Encoders 9-16 Turn (CC 18-25) -->
+ <Channel Number="18">
+  <Name>A Encoder 9</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="19">
+  <Name>A Encoder 10</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="20">
+  <Name>A Encoder 11</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="21">
+  <Name>A Encoder 12</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="22">
+  <Name>A Encoder 13</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="23">
+  <Name>A Encoder 14</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="24">
+  <Name>A Encoder 15</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="25">
+  <Name>A Encoder 16</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+
+ <!-- Foot Switch + Expression Pedal (Layer A) -->
+ <Channel Number="26">
+  <Name>A Expression Pedal</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="27">
+  <Name>A Foot Switch</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Fader Touch 1-9 (CC 101-109) -->
+ <Channel Number="101">
+  <Name>A Fader 1 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="102">
+  <Name>A Fader 2 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="103">
+  <Name>A Fader 3 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="104">
+  <Name>A Fader 4 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="105">
+  <Name>A Fader 5 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="106">
+  <Name>A Fader 6 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="107">
+  <Name>A Fader 7 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="108">
+  <Name>A Fader 8 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="109">
+  <Name>A Fader 9 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Encoder 1-8 Push (Note 0-7 → Ch 128-135) -->
+ <Channel Number="128">
+  <Name>A Encoder 1 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="129">
+  <Name>A Encoder 2 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="130">
+  <Name>A Encoder 3 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="131">
+  <Name>A Encoder 4 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="132">
+  <Name>A Encoder 5 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="133">
+  <Name>A Encoder 6 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="134">
+  <Name>A Encoder 7 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="135">
+  <Name>A Encoder 8 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Encoder 9-16 Push (Note 8-15 → Ch 136-143) -->
+ <Channel Number="136">
+  <Name>A Encoder 9 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="137">
+  <Name>A Encoder 10 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="138">
+  <Name>A Encoder 11 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="139">
+  <Name>A Encoder 12 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="140">
+  <Name>A Encoder 13 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="141">
+  <Name>A Encoder 14 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="142">
+  <Name>A Encoder 15 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="143">
+  <Name>A Encoder 16 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Button Row 1 (Note 16-23 → Ch 144-151) -->
+ <Channel Number="144">
+  <Name>A Row1 Btn1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="145">
+  <Name>A Row1 Btn2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="146">
+  <Name>A Row1 Btn3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="147">
+  <Name>A Row1 Btn4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="148">
+  <Name>A Row1 Btn5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="149">
+  <Name>A Row1 Btn6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="150">
+  <Name>A Row1 Btn7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="151">
+  <Name>A Row1 Btn8</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Button Row 2 (Note 24-31 → Ch 152-159) -->
+ <Channel Number="152">
+  <Name>A Row2 Btn1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="153">
+  <Name>A Row2 Btn2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="154">
+  <Name>A Row2 Btn3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="155">
+  <Name>A Row2 Btn4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="156">
+  <Name>A Row2 Btn5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="157">
+  <Name>A Row2 Btn6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="158">
+  <Name>A Row2 Btn7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="159">
+  <Name>A Row2 Btn8</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Button Row 3 (Note 32-39 → Ch 160-167) -->
+ <Channel Number="160">
+  <Name>A Row3 Btn1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="161">
+  <Name>A Row3 Btn2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="162">
+  <Name>A Row3 Btn3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="163">
+  <Name>A Row3 Btn4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="164">
+  <Name>A Row3 Btn5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="165">
+  <Name>A Row3 Btn6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="166">
+  <Name>A Row3 Btn7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="167">
+  <Name>A Row3 Btn8</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- ============================================ -->
+ <!-- LAYER B "Instrument Control" (MIDI Channel 1)-->
+ <!-- ============================================ -->
+
+ <!-- Faders 1-9 (CC 28-36) -->
+ <Channel Number="28">
+  <Name>B Fader 1</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="29">
+  <Name>B Fader 2</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="30">
+  <Name>B Fader 3</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="31">
+  <Name>B Fader 4</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="32">
+  <Name>B Fader 5</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="33">
+  <Name>B Fader 6</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="34">
+  <Name>B Fader 7</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="35">
+  <Name>B Fader 8</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="36">
+  <Name>B Fader 9 (Master)</Name>
+  <Type>Slider</Type>
+ </Channel>
+
+ <!-- Encoders 1-8 Turn (CC 37-44) -->
+ <Channel Number="37">
+  <Name>B Encoder 1</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="38">
+  <Name>B Encoder 2</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="39">
+  <Name>B Encoder 3</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="40">
+  <Name>B Encoder 4</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="41">
+  <Name>B Encoder 5</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="42">
+  <Name>B Encoder 6</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="43">
+  <Name>B Encoder 7</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="44">
+  <Name>B Encoder 8</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+
+ <!-- Encoders 9-16 Turn (CC 45-52) -->
+ <Channel Number="45">
+  <Name>B Encoder 9</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="46">
+  <Name>B Encoder 10</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="47">
+  <Name>B Encoder 11</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="48">
+  <Name>B Encoder 12</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="49">
+  <Name>B Encoder 13</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="50">
+  <Name>B Encoder 14</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="51">
+  <Name>B Encoder 15</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+ <Channel Number="52">
+  <Name>B Encoder 16</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="3"/>
+ </Channel>
+
+ <!-- Foot Switch + Expression Pedal (Layer B) -->
+ <Channel Number="63">
+  <Name>B Expression Pedal</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="64">
+  <Name>B Foot Switch</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Fader Touch 1-9 Layer B (CC 111-119) -->
+ <Channel Number="111">
+  <Name>B Fader 1 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="112">
+  <Name>B Fader 2 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="113">
+  <Name>B Fader 3 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="114">
+  <Name>B Fader 4 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="115">
+  <Name>B Fader 5 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="116">
+  <Name>B Fader 6 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="117">
+  <Name>B Fader 7 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="118">
+  <Name>B Fader 8 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="119">
+  <Name>B Fader 9 Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Encoder 1-8 Push Layer B (Note 55-62 → Ch 183-190) -->
+ <Channel Number="183">
+  <Name>B Encoder 1 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="184">
+  <Name>B Encoder 2 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="185">
+  <Name>B Encoder 3 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="186">
+  <Name>B Encoder 4 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="187">
+  <Name>B Encoder 5 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="188">
+  <Name>B Encoder 6 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="189">
+  <Name>B Encoder 7 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="190">
+  <Name>B Encoder 8 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Encoder 9-16 Push Layer B (Note 63-70 → Ch 191-198) -->
+ <Channel Number="191">
+  <Name>B Encoder 9 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="192">
+  <Name>B Encoder 10 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="193">
+  <Name>B Encoder 11 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="194">
+  <Name>B Encoder 12 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="195">
+  <Name>B Encoder 13 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="196">
+  <Name>B Encoder 14 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="197">
+  <Name>B Encoder 15 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="198">
+  <Name>B Encoder 16 Push</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Button Row 1 Layer B (Note 71-78 → Ch 199-206) -->
+ <Channel Number="199">
+  <Name>B Row1 Btn1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="200">
+  <Name>B Row1 Btn2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="201">
+  <Name>B Row1 Btn3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="202">
+  <Name>B Row1 Btn4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="203">
+  <Name>B Row1 Btn5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="204">
+  <Name>B Row1 Btn6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="205">
+  <Name>B Row1 Btn7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="206">
+  <Name>B Row1 Btn8</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Button Row 2 Layer B (Note 79-86 → Ch 207-214) -->
+ <Channel Number="207">
+  <Name>B Row2 Btn1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="208">
+  <Name>B Row2 Btn2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="209">
+  <Name>B Row2 Btn3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="210">
+  <Name>B Row2 Btn4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="211">
+  <Name>B Row2 Btn5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="212">
+  <Name>B Row2 Btn6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="213">
+  <Name>B Row2 Btn7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="214">
+  <Name>B Row2 Btn8</Name>
+  <Type>Button</Type>
+ </Channel>
+
+ <!-- Button Row 3 Layer B (Note 87-94 → Ch 215-222) -->
+ <Channel Number="215">
+  <Name>B Row3 Btn1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="216">
+  <Name>B Row3 Btn2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="217">
+  <Name>B Row3 Btn3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="218">
+  <Name>B Row3 Btn4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="219">
+  <Name>B Row3 Btn5</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="220">
+  <Name>B Row3 Btn6</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="221">
+  <Name>B Row3 Btn7</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="222">
+  <Name>B Row3 Btn8</Name>
+  <Type>Button</Type>
+ </Channel>
+
+</InputProfile>
