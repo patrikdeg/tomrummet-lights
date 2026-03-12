@@ -22,10 +22,8 @@ QLC+ config files for Tomrummet stage lighting.
 | 173 | Tracpod TP-81 | 48 | 9 | 48ch, truss bak-kant |
 | 221 | Revo III SR | 10 | 12 | 10ch mode, stage right |
 | 231 | Revo III SL | 10 | 13 | 10ch mode, stage left |
-| 241 | Tracpod VÄ-1 | 48 | 14 | 48ch, truss vänster kortsida |
-| 289 | Generic RGB | 3 | 10 | Okänd/orphan, flyttad från 282 (överlapp med VÄ-1) |
-| 297 | Eurolite LED PAR 56 RGB | 5 | 11 | 5ch, oanvänd i scener |
-| 337 | Tracpod HÖ-1 | 48 | 16 | 48ch, truss höger kortsida |
+| 241 | Tracpod TP-81 SR1 | 48 | 14 | 48ch, truss kortsida stage right |
+| 337 | Tracpod TP-81 SL1 | 48 | 16 | 48ch, truss kortsida stage left |
 | TBD | 6x Robe ParFect 100 | ? | — | Kommande |
 
 ## Principer

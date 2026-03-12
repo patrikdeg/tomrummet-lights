@@ -81,26 +81,6 @@
    <Channels>48</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic RGB</Model>
-   <Mode>RGB</Mode>
-   <ID>10</ID>
-   <Name>Generic RGB [11]</Name>
-   <Universe>0</Universe>
-   <Address>288</Address>
-   <Channels>3</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Eurolite</Manufacturer>
-   <Model>LED PAR 56 RGB DMX</Model>
-   <Mode>5 Channels</Mode>
-   <ID>11</ID>
-   <Name>LED PAR 56 RGB DMX [12]</Name>
-   <Universe>0</Universe>
-   <Address>296</Address>
-   <Channels>5</Channels>
-  </Fixture>
-  <Fixture>
    <Manufacturer>American DJ</Manufacturer>
    <Model>Revo III</Model>
    <Mode>10 Channel</Mode>
@@ -125,7 +105,7 @@
    <Model>Tracpod 81</Model>
    <Mode>48 Channel</Mode>
    <ID>14</ID>
-   <Name>Tracpod VÄ-1 [adr241]</Name>
+   <Name>Tracpod TP-81 SR1</Name>
    <Universe>0</Universe>
    <Address>240</Address>
    <Channels>48</Channels>
@@ -135,7 +115,7 @@
    <Model>Tracpod 81</Model>
    <Mode>48 Channel</Mode>
    <ID>16</ID>
-   <Name>Tracpod HÖ-1 [adr337]</Name>
+   <Name>Tracpod TP-81 SL1</Name>
    <Universe>0</Universe>
    <Address>336</Address>
    <Channels>48</Channels>
@@ -148,14 +128,14 @@
   <FixtureGroup ID="4">
    <Name>trackpod</Name>
    <Size X="48" Y="1"/>
-   <Head X="0" Y="0" Fixture="14">7</Head>
-   <Head X="1" Y="0" Fixture="14">6</Head>
-   <Head X="2" Y="0" Fixture="14">5</Head>
-   <Head X="3" Y="0" Fixture="14">4</Head>
-   <Head X="4" Y="0" Fixture="14">3</Head>
-   <Head X="5" Y="0" Fixture="14">2</Head>
-   <Head X="6" Y="0" Fixture="14">1</Head>
-   <Head X="7" Y="0" Fixture="14">0</Head>
+   <Head X="0" Y="0" Fixture="14">0</Head>
+   <Head X="1" Y="0" Fixture="14">1</Head>
+   <Head X="2" Y="0" Fixture="14">2</Head>
+   <Head X="3" Y="0" Fixture="14">3</Head>
+   <Head X="4" Y="0" Fixture="14">4</Head>
+   <Head X="5" Y="0" Fixture="14">5</Head>
+   <Head X="6" Y="0" Fixture="14">6</Head>
+   <Head X="7" Y="0" Fixture="14">7</Head>
    <Head X="8" Y="0" Fixture="6">7</Head>
    <Head X="9" Y="0" Fixture="6">6</Head>
    <Head X="10" Y="0" Fixture="6">5</Head>
@@ -188,14 +168,14 @@
    <Head X="37" Y="0" Fixture="9">2</Head>
    <Head X="38" Y="0" Fixture="9">1</Head>
    <Head X="39" Y="0" Fixture="9">0</Head>
-   <Head X="40" Y="0" Fixture="16">7</Head>
-   <Head X="41" Y="0" Fixture="16">6</Head>
-   <Head X="42" Y="0" Fixture="16">5</Head>
-   <Head X="43" Y="0" Fixture="16">4</Head>
-   <Head X="44" Y="0" Fixture="16">3</Head>
-   <Head X="45" Y="0" Fixture="16">2</Head>
-   <Head X="46" Y="0" Fixture="16">1</Head>
-   <Head X="47" Y="0" Fixture="16">0</Head>
+   <Head X="40" Y="0" Fixture="16">0</Head>
+   <Head X="41" Y="0" Fixture="16">1</Head>
+   <Head X="42" Y="0" Fixture="16">2</Head>
+   <Head X="43" Y="0" Fixture="16">3</Head>
+   <Head X="44" Y="0" Fixture="16">4</Head>
+   <Head X="45" Y="0" Fixture="16">5</Head>
+   <Head X="46" Y="0" Fixture="16">6</Head>
+   <Head X="47" Y="0" Fixture="16">7</Head>
   </FixtureGroup>
   <Function ID="3" Type="Scene" Name="smoke">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -397,8 +377,6 @@
    <FxItem ID="7" XPos="1576.59" YPos="2960.59" ZPos="1.31841" XRot="-150"/>
    <FxItem ID="8" XPos="2596.46" YPos="2911.94" ZPos="-18.6159" XRot="-150"/>
    <FxItem ID="9" XPos="3595.61" YPos="2947.29" ZPos="10.3948" XRot="-150"/>
-   <FxItem ID="10" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="11" XPos="0" YPos="0" ZPos="0"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
