@@ -177,6 +177,42 @@
    <Head X="46" Y="0" Fixture="16">6</Head>
    <Head X="47" Y="0" Fixture="16">7</Head>
   </FixtureGroup>
+  <FixtureGroup ID="5">
+   <Name>trackpod bak</Name>
+   <Size X="32" Y="1"/>
+   <Head X="0" Y="0" Fixture="6">7</Head>
+   <Head X="1" Y="0" Fixture="6">6</Head>
+   <Head X="2" Y="0" Fixture="6">5</Head>
+   <Head X="3" Y="0" Fixture="6">4</Head>
+   <Head X="4" Y="0" Fixture="6">3</Head>
+   <Head X="5" Y="0" Fixture="6">2</Head>
+   <Head X="6" Y="0" Fixture="6">1</Head>
+   <Head X="7" Y="0" Fixture="6">0</Head>
+   <Head X="8" Y="0" Fixture="7">7</Head>
+   <Head X="9" Y="0" Fixture="7">6</Head>
+   <Head X="10" Y="0" Fixture="7">5</Head>
+   <Head X="11" Y="0" Fixture="7">4</Head>
+   <Head X="12" Y="0" Fixture="7">3</Head>
+   <Head X="13" Y="0" Fixture="7">2</Head>
+   <Head X="14" Y="0" Fixture="7">1</Head>
+   <Head X="15" Y="0" Fixture="7">0</Head>
+   <Head X="16" Y="0" Fixture="8">7</Head>
+   <Head X="17" Y="0" Fixture="8">6</Head>
+   <Head X="18" Y="0" Fixture="8">5</Head>
+   <Head X="19" Y="0" Fixture="8">4</Head>
+   <Head X="20" Y="0" Fixture="8">3</Head>
+   <Head X="21" Y="0" Fixture="8">2</Head>
+   <Head X="22" Y="0" Fixture="8">1</Head>
+   <Head X="23" Y="0" Fixture="8">0</Head>
+   <Head X="24" Y="0" Fixture="9">7</Head>
+   <Head X="25" Y="0" Fixture="9">6</Head>
+   <Head X="26" Y="0" Fixture="9">5</Head>
+   <Head X="27" Y="0" Fixture="9">4</Head>
+   <Head X="28" Y="0" Fixture="9">3</Head>
+   <Head X="29" Y="0" Fixture="9">2</Head>
+   <Head X="30" Y="0" Fixture="9">1</Head>
+   <Head X="31" Y="0" Fixture="9">0</Head>
+  </FixtureGroup>
   <Function ID="3" Type="Scene" Name="smoke">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">0,255</FixtureVal>
@@ -200,7 +236,7 @@
    <Algorithm Type="Script">Stripes</Algorithm>
    <Color Index="0">4294901760</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
    <Property Name="orientation" Value="Horizontal"/>
   </Function>
   <Function ID="16" Type="RGBMatrix" Name="white sparkle">
@@ -210,7 +246,7 @@
    <Algorithm Type="Script">Noise</Algorithm>
    <Color Index="0">4294967295</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
    <Property Name="noisePercentage" Value="Medium"/>
   </Function>
   <Function ID="17" Type="RGBMatrix" Name="trackpod fire">
@@ -220,7 +256,7 @@
    <Algorithm Type="Script">Plasma</Algorithm>
    <Color Index="0">4294901760</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
    <Property Name="presetIndex" Value="Fire"/>
    <Property Name="presetSize" Value="7"/>
    <Property Name="stepsize" Value="28"/>
@@ -767,20 +803,8 @@
      </Level>
     </Slider>
    </Frame>
-  </Frame>
-  <Frame Caption="Page 2" ID="1">
-   <Appearance>
-    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
-   </Appearance>
-   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
-   <AllowResize>False</AllowResize>
-   <ShowHeader>False</ShowHeader>
-   <ShowEnableButton>True</ShowEnableButton>
-   <Collapsed>False</Collapsed>
-   <Disabled>False</Disabled>
-   <!-- Revo controls moved to Page 3 -->
    <Frame Caption="TP Colors" ID="70">
-    <WindowState Visible="True" X="6" Y="290" Width="680" Height="200"/>
+    <WindowState Visible="True" X="6" Y="600" Width="680" Height="200"/>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
@@ -796,10 +820,8 @@
     <Button Caption="Orange" ID="78"><WindowState Visible="True" X="565" Y="35" Width="75" Height="50"/><Appearance><ForegroundColor>4278190080</ForegroundColor><BackgroundColor>4294944000</BackgroundColor></Appearance><Function ID="47"/><Action>Toggle</Action></Button>
     <Button Caption="Rainbow" ID="79"><WindowState Visible="True" X="5" Y="100" Width="100" Height="50"/><Appearance><BackgroundColor>4282664004</BackgroundColor></Appearance><Function ID="48"/><Action>Toggle</Action></Button>
    </Frame>
-   <!-- Revo sliders moved to Page 3 -->
-   <Slider Caption="Grand master" ID="82" WidgetStyle="Slider" InvertedAppearance="false"><WindowState Visible="True" X="958" Y="7" Width="106" Height="586"/><Appearance><BackgroundColor>4282664004</BackgroundColor></Appearance><SliderMode ValueDisplayStyle="Percentage">GrandMaster</SliderMode><Level LowLimit="0" HighLimit="255" Value="255"/></Slider>
   </Frame>
-  <Frame Caption="Page 3 - Revo III" ID="2">
+  <Frame Caption="Page 2 - Revo III" ID="1">
    <Appearance>
     <BackgroundColor>4278190080</BackgroundColor>
     <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -1038,6 +1060,17 @@
     <SliderMode ValueDisplayStyle="Percentage">GrandMaster</SliderMode>
     <Level LowLimit="0" HighLimit="255" Value="255"/>
    </Slider>
+  </Frame>
+  <Frame Caption="Page 3" ID="2">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
   </Frame>
   <Frame Caption="Page 4" ID="3">
    <Appearance>
