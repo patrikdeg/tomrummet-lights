@@ -24,7 +24,6 @@ QLC+ config files for Tomrummet stage lighting.
 | 231 | Revo III SL | 10 | 13 | 10ch mode, stage left |
 | 241 | Tracpod TP-81 SR1 | 48 | 14 | 48ch, truss kortsida stage right |
 | 337 | Tracpod TP-81 SL1 | 48 | 16 | 48ch, truss kortsida stage left |
-| TBD | 6x Robe ParFect 100 | ? | — | Kommande |
 
 ## Principer
 
