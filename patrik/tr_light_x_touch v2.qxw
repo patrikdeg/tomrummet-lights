@@ -216,6 +216,26 @@
    <Head X="30" Y="0" Fixture="9">1</Head>
    <Head X="31" Y="0" Fixture="9">0</Head>
   </FixtureGroup>
+  <FixtureGroup ID="6">
+   <Name>trackpod sida</Name>
+   <Size X="16" Y="1"/>
+   <Head X="0" Y="0" Fixture="14">0</Head>
+   <Head X="1" Y="0" Fixture="14">1</Head>
+   <Head X="2" Y="0" Fixture="14">2</Head>
+   <Head X="3" Y="0" Fixture="14">3</Head>
+   <Head X="4" Y="0" Fixture="14">4</Head>
+   <Head X="5" Y="0" Fixture="14">5</Head>
+   <Head X="6" Y="0" Fixture="14">6</Head>
+   <Head X="7" Y="0" Fixture="14">7</Head>
+   <Head X="8" Y="0" Fixture="16">0</Head>
+   <Head X="9" Y="0" Fixture="16">1</Head>
+   <Head X="10" Y="0" Fixture="16">2</Head>
+   <Head X="11" Y="0" Fixture="16">3</Head>
+   <Head X="12" Y="0" Fixture="16">4</Head>
+   <Head X="13" Y="0" Fixture="16">5</Head>
+   <Head X="14" Y="0" Fixture="16">6</Head>
+   <Head X="15" Y="0" Fixture="16">7</Head>
+  </FixtureGroup>
   <Function ID="3" Type="Scene" Name="smoke">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">0,255</FixtureVal>
@@ -289,7 +309,7 @@
    <Algorithm Type="Plain"/>
    <Color Index="0">4294901760</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="41" Type="RGBMatrix" Name="TP Blue">
    <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
@@ -298,7 +318,7 @@
    <Algorithm Type="Plain"/>
    <Color Index="0">4278190335</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="42" Type="RGBMatrix" Name="TP Green">
    <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
@@ -307,7 +327,7 @@
    <Algorithm Type="Plain"/>
    <Color Index="0">4278255360</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="43" Type="RGBMatrix" Name="TP Purple">
    <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
@@ -316,7 +336,7 @@
    <Algorithm Type="Plain"/>
    <Color Index="0">4294902015</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="44" Type="RGBMatrix" Name="TP Yellow">
    <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
@@ -325,7 +345,7 @@
    <Algorithm Type="Plain"/>
    <Color Index="0">4294967040</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="45" Type="RGBMatrix" Name="TP Cyan">
    <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
@@ -334,7 +354,7 @@
    <Algorithm Type="Plain"/>
    <Color Index="0">4278255615</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="46" Type="RGBMatrix" Name="TP White">
    <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
@@ -343,7 +363,7 @@
    <Algorithm Type="Plain"/>
    <Color Index="0">4294967295</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="47" Type="RGBMatrix" Name="TP Orange">
    <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
@@ -352,7 +372,7 @@
    <Algorithm Type="Plain"/>
    <Color Index="0">4294944000</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
   </Function>
   <Function ID="48" Type="RGBMatrix" Name="TP Rainbow">
    <Speed FadeIn="0" FadeOut="0" Duration="200"/>
@@ -361,11 +381,92 @@
    <Algorithm Type="Script">Plasma</Algorithm>
    <Color Index="0">4294901760</Color>
    <ControlMode>RGB</ControlMode>
-   <FixtureGroup>4</FixtureGroup>
+   <FixtureGroup>5</FixtureGroup>
    <Property Name="presetIndex" Value="Rainbow"/>
    <Property Name="presetSize" Value="10"/>
    <Property Name="ramp" Value="30"/>
    <Property Name="stepsize" Value="40"/>
+  </Function>
+  <Function ID="50" Type="RGBMatrix" Name="Side Red">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4294901760</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function ID="51" Type="RGBMatrix" Name="Side Blue">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4278190335</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function ID="52" Type="RGBMatrix" Name="Side Green">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4278255360</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function ID="53" Type="RGBMatrix" Name="Side Purple">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4294902015</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function ID="54" Type="RGBMatrix" Name="Side Yellow">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4294967040</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function ID="55" Type="RGBMatrix" Name="Side Cyan">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4278255615</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function ID="56" Type="RGBMatrix" Name="Side White">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4294967295</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function ID="57" Type="RGBMatrix" Name="Side Orange">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4294944000</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>6</FixtureGroup>
+  </Function>
+  <Function ID="58" Type="RGBMatrix" Name="Side Wash Full">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4294967295</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>6</FixtureGroup>
   </Function>
   <Function ID="100" Type="Scene" Name="Revo Mode: Pattern">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -803,56 +904,85 @@
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="159"/>
      </Button>
-     <Button Caption="Rainbow" ID="79">
+     <Button Caption="S.Red" ID="80">
       <WindowState Visible="True" X="50" Y="220" Width="80" Height="50"/>
       <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
+       <BackgroundColor>4294901760</BackgroundColor>
       </Appearance>
-      <Function ID="48"/>
+      <Function ID="50"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="160"/>
+      <Feedbacks LowerValue="0" UpperValue="4"/>
      </Button>
-     <Button Caption="(-)" ID="318">
+     <Button Caption="S.Blue" ID="81">
       <WindowState Visible="True" X="145" Y="220" Width="80" Height="50"/>
       <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
+       <BackgroundColor>4278190335</BackgroundColor>
       </Appearance>
+      <Function ID="51"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="161"/>
+      <Feedbacks LowerValue="0" UpperValue="4"/>
      </Button>
-     <Button Caption="(-)" ID="319">
+     <Button Caption="S.Green" ID="82">
       <WindowState Visible="True" X="240" Y="220" Width="80" Height="50"/>
       <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
+       <BackgroundColor>4278234880</BackgroundColor>
       </Appearance>
+      <Function ID="52"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="162"/>
+      <Feedbacks LowerValue="0" UpperValue="4"/>
      </Button>
-     <Button Caption="(-)" ID="320">
+     <Button Caption="S.Purple" ID="83">
       <WindowState Visible="True" X="335" Y="220" Width="80" Height="50"/>
       <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
+       <BackgroundColor>4290462463</BackgroundColor>
       </Appearance>
+      <Function ID="53"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="163"/>
+      <Feedbacks LowerValue="0" UpperValue="4"/>
      </Button>
-     <Button Caption="(-)" ID="321">
+     <Button Caption="S.Yellow" ID="84">
       <WindowState Visible="True" X="430" Y="220" Width="80" Height="50"/>
       <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
+       <BackgroundColor>4294967040</BackgroundColor>
       </Appearance>
+      <Function ID="54"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="164"/>
+      <Feedbacks LowerValue="0" UpperValue="4"/>
      </Button>
-     <Button Caption="(-)" ID="322">
+     <Button Caption="S.Cyan" ID="85">
       <WindowState Visible="True" X="525" Y="220" Width="80" Height="50"/>
       <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
+       <BackgroundColor>4278255615</BackgroundColor>
       </Appearance>
+      <Function ID="55"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="165"/>
+      <Feedbacks LowerValue="0" UpperValue="4"/>
      </Button>
-     <Button Caption="(-)" ID="323">
+     <Button Caption="S.White" ID="86">
       <WindowState Visible="True" X="620" Y="220" Width="80" Height="50"/>
       <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
       </Appearance>
+      <Function ID="56"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="166"/>
+      <Feedbacks LowerValue="0" UpperValue="4"/>
      </Button>
-     <Button Caption="(-)" ID="324">
+     <Button Caption="S.Orange" ID="87">
       <WindowState Visible="True" X="715" Y="220" Width="80" Height="50"/>
       <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
+       <BackgroundColor>4294944000</BackgroundColor>
       </Appearance>
+      <Function ID="57"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="167"/>
+      <Feedbacks LowerValue="0" UpperValue="4"/>
      </Button>
     <Slider Caption="T.RED" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="50" Y="300" Width="80" Height="300"/>
@@ -1038,6 +1168,18 @@
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="4">0</Channel>
      </Level>
+    </Slider>
+    <Slider Caption="S.DIM" ID="35" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="430" Y="300" Width="80" Height="300"/>
+     <Appearance>
+      <BackgroundColor>4282664004</BackgroundColor>
+     </Appearance>
+     <Input ID="0" Universe="0" Channel="5"/>
+     <SliderMode ValueDisplayStyle="Percentage">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>58</Function>
+     </Playback>
     </Slider>
     <Slider Caption="GM" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="850" Y="300" Width="80" Height="300"/>
