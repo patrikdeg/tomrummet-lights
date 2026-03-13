@@ -74,44 +74,44 @@
  <Channel Number="143"><Name>Enc Push A16</Name><Type>Button</Type></Channel>
 
  <!-- Button Grid Row 1 (Note 16-23 → Ch 144-151) -->
- <Channel Number="144"><Name>Btn A1.1</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="145"><Name>Btn A1.2</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="146"><Name>Btn A1.3</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="147"><Name>Btn A1.4</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="148"><Name>Btn A1.5</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="149"><Name>Btn A1.6</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="150"><Name>Btn A1.7</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="151"><Name>Btn A1.8</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="144"><Name>Btn A1.1</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="145"><Name>Btn A1.2</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="146"><Name>Btn A1.3</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="147"><Name>Btn A1.4</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="148"><Name>Btn A1.5</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="149"><Name>Btn A1.6</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="150"><Name>Btn A1.7</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="151"><Name>Btn A1.8</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
 
  <!-- Button Grid Row 2 (Note 24-31 → Ch 152-159) -->
- <Channel Number="152"><Name>Btn A2.1</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="153"><Name>Btn A2.2</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="154"><Name>Btn A2.3</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="155"><Name>Btn A2.4</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="156"><Name>Btn A2.5</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="157"><Name>Btn A2.6</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="158"><Name>Btn A2.7</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="159"><Name>Btn A2.8</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="152"><Name>Btn A2.1</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="153"><Name>Btn A2.2</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="154"><Name>Btn A2.3</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="155"><Name>Btn A2.4</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="156"><Name>Btn A2.5</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="157"><Name>Btn A2.6</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="158"><Name>Btn A2.7</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="159"><Name>Btn A2.8</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
 
  <!-- Button Grid Row 3 (Note 32-39 → Ch 160-167) -->
- <Channel Number="160"><Name>Btn A3.1</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="161"><Name>Btn A3.2</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="162"><Name>Btn A3.3</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="163"><Name>Btn A3.4</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="164"><Name>Btn A3.5</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="165"><Name>Btn A3.6</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="166"><Name>Btn A3.7</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="167"><Name>Btn A3.8</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="160"><Name>Btn A3.1</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="161"><Name>Btn A3.2</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="162"><Name>Btn A3.3</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="163"><Name>Btn A3.4</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="164"><Name>Btn A3.5</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="165"><Name>Btn A3.6</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="166"><Name>Btn A3.7</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="167"><Name>Btn A3.8</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
 
  <!-- Button Grid Row 4 (Note 40-47 → Ch 168-175) -->
- <Channel Number="168"><Name>Btn A4.1</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="169"><Name>Btn A4.2</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="170"><Name>Btn A4.3</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="171"><Name>Btn A4.4</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="172"><Name>Btn A4.5</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="173"><Name>Btn A4.6</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="174"><Name>Btn A4.7</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="175"><Name>Btn A4.8</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="168"><Name>Btn A4.1</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="169"><Name>Btn A4.2</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="170"><Name>Btn A4.3</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="171"><Name>Btn A4.4</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="172"><Name>Btn A4.5</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="173"><Name>Btn A4.6</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="174"><Name>Btn A4.7</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="175"><Name>Btn A4.8</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
 
  <!-- Main Button (Note 48 → Ch 176) -->
  <Channel Number="176"><Name>Btn A Main</Name><Type>Button</Type><Feedbacks UpperValue="6"/></Channel>
@@ -187,44 +187,44 @@
  <Channel Number="198"><Name>Enc Push B16</Name><Type>Button</Type></Channel>
 
  <!-- Button Grid Row 1 (Note 71-78 → Ch 199-206) -->
- <Channel Number="199"><Name>Btn B1.1</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="200"><Name>Btn B1.2</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="201"><Name>Btn B1.3</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="202"><Name>Btn B1.4</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="203"><Name>Btn B1.5</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="204"><Name>Btn B1.6</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="205"><Name>Btn B1.7</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="206"><Name>Btn B1.8</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="199"><Name>Btn B1.1</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="200"><Name>Btn B1.2</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="201"><Name>Btn B1.3</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="202"><Name>Btn B1.4</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="203"><Name>Btn B1.5</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="204"><Name>Btn B1.6</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="205"><Name>Btn B1.7</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="206"><Name>Btn B1.8</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
 
  <!-- Button Grid Row 2 (Note 79-86 → Ch 207-214) -->
- <Channel Number="207"><Name>Btn B2.1</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="208"><Name>Btn B2.2</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="209"><Name>Btn B2.3</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="210"><Name>Btn B2.4</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="211"><Name>Btn B2.5</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="212"><Name>Btn B2.6</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="213"><Name>Btn B2.7</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="214"><Name>Btn B2.8</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="207"><Name>Btn B2.1</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="208"><Name>Btn B2.2</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="209"><Name>Btn B2.3</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="210"><Name>Btn B2.4</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="211"><Name>Btn B2.5</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="212"><Name>Btn B2.6</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="213"><Name>Btn B2.7</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="214"><Name>Btn B2.8</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
 
  <!-- Button Grid Row 3 (Note 87-94 → Ch 215-222) -->
- <Channel Number="215"><Name>Btn B3.1</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="216"><Name>Btn B3.2</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="217"><Name>Btn B3.3</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="218"><Name>Btn B3.4</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="219"><Name>Btn B3.5</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="220"><Name>Btn B3.6</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="221"><Name>Btn B3.7</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="222"><Name>Btn B3.8</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="215"><Name>Btn B3.1</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="216"><Name>Btn B3.2</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="217"><Name>Btn B3.3</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="218"><Name>Btn B3.4</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="219"><Name>Btn B3.5</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="220"><Name>Btn B3.6</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="221"><Name>Btn B3.7</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="222"><Name>Btn B3.8</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
 
  <!-- Button Grid Row 4 (Note 95-102 → Ch 223-230) -->
- <Channel Number="223"><Name>Btn B4.1</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="224"><Name>Btn B4.2</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="225"><Name>Btn B4.3</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="226"><Name>Btn B4.4</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="227"><Name>Btn B4.5</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="228"><Name>Btn B4.6</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="229"><Name>Btn B4.7</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
- <Channel Number="230"><Name>Btn B4.8</Name><Type>Button</Type><ExtraPress>True</ExtraPress><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="223"><Name>Btn B4.1</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="224"><Name>Btn B4.2</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="225"><Name>Btn B4.3</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="226"><Name>Btn B4.4</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="227"><Name>Btn B4.5</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="228"><Name>Btn B4.6</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="229"><Name>Btn B4.7</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
+ <Channel Number="230"><Name>Btn B4.8</Name><Type>Button</Type><Feedbacks UpperValue="4"/></Channel>
 
  <!-- Main Button (Note 103 → Ch 231) -->
  <Channel Number="231"><Name>Btn B Main</Name><Type>Button</Type><Feedbacks UpperValue="6"/></Channel>

@@ -662,7 +662,7 @@
      <Level LowLimit="0" HighLimit="255" Value="0"/>
     </Slider>
      <Button Caption="sparkle" ID="2">
-      <WindowState Visible="True" X="50" Y="100" Width="80" Height="50"/>
+      <WindowState Visible="True" X="145" Y="100" Width="80" Height="50"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -671,7 +671,7 @@
       <Input ID="0" Universe="0" Channel="145"/>
      </Button>
      <Button Caption="fire" ID="1">
-      <WindowState Visible="True" X="145" Y="100" Width="80" Height="50"/>
+      <WindowState Visible="True" X="240" Y="100" Width="80" Height="50"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -680,7 +680,7 @@
       <Input ID="0" Universe="0" Channel="146"/>
      </Button>
      <Button Caption="strobe" ID="34">
-      <WindowState Visible="True" X="240" Y="100" Width="80" Height="50"/>
+      <WindowState Visible="True" X="430" Y="100" Width="80" Height="50"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -698,7 +698,7 @@
       <Input ID="0" Universe="0" Channel="147"/>
      </Button>
      <Button Caption="k.rider" ID="0">
-      <WindowState Visible="True" X="430" Y="100" Width="80" Height="50"/>
+      <WindowState Visible="True" X="50" Y="100" Width="80" Height="50"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
