@@ -256,26 +256,6 @@
   </FixtureGroup>
   <FixtureGroup ID="6">
    <Name>trackpod sida</Name>
-   <Size X="16" Y="1"/>
-   <Head X="0" Y="0" Fixture="14">0</Head>
-   <Head X="1" Y="0" Fixture="14">1</Head>
-   <Head X="2" Y="0" Fixture="14">2</Head>
-   <Head X="3" Y="0" Fixture="14">3</Head>
-   <Head X="4" Y="0" Fixture="14">4</Head>
-   <Head X="5" Y="0" Fixture="14">5</Head>
-   <Head X="6" Y="0" Fixture="14">6</Head>
-   <Head X="7" Y="0" Fixture="14">7</Head>
-   <Head X="8" Y="0" Fixture="16">0</Head>
-   <Head X="9" Y="0" Fixture="16">1</Head>
-   <Head X="10" Y="0" Fixture="16">2</Head>
-   <Head X="11" Y="0" Fixture="16">3</Head>
-   <Head X="12" Y="0" Fixture="16">4</Head>
-   <Head X="13" Y="0" Fixture="16">5</Head>
-   <Head X="14" Y="0" Fixture="16">6</Head>
-   <Head X="15" Y="0" Fixture="16">7</Head>
-  </FixtureGroup>
-  <FixtureGroup ID="6">
-   <Name>trackpod sida</Name>
    <Size X="32" Y="1"/>
    <Head X="0" Y="0" Fixture="14">0</Head>
    <Head X="1" Y="0" Fixture="14">1</Head>
