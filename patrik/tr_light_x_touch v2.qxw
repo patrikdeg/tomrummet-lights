@@ -966,7 +966,7 @@
       <Function ID="50"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="160"/>
-      <Feedbacks LowerValue="0" UpperValue="4"/>
+      <Feedbacks LowerValue="127" UpperValue="127"/>
      </Button>
      <Button Caption="S.Blue" ID="81">
       <WindowState Visible="True" X="145" Y="220" Width="80" Height="50"/>
@@ -976,7 +976,7 @@
       <Function ID="51"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="161"/>
-      <Feedbacks LowerValue="0" UpperValue="4"/>
+      <Feedbacks LowerValue="127" UpperValue="127"/>
      </Button>
      <Button Caption="S.Green" ID="82">
       <WindowState Visible="True" X="240" Y="220" Width="80" Height="50"/>
@@ -986,7 +986,7 @@
       <Function ID="52"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="162"/>
-      <Feedbacks LowerValue="0" UpperValue="4"/>
+      <Feedbacks LowerValue="127" UpperValue="127"/>
      </Button>
      <Button Caption="S.Purple" ID="83">
       <WindowState Visible="True" X="335" Y="220" Width="80" Height="50"/>
@@ -996,7 +996,7 @@
       <Function ID="53"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="163"/>
-      <Feedbacks LowerValue="0" UpperValue="4"/>
+      <Feedbacks LowerValue="127" UpperValue="127"/>
      </Button>
      <Button Caption="S.Yellow" ID="84">
       <WindowState Visible="True" X="430" Y="220" Width="80" Height="50"/>
@@ -1006,7 +1006,7 @@
       <Function ID="54"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="164"/>
-      <Feedbacks LowerValue="0" UpperValue="4"/>
+      <Feedbacks LowerValue="127" UpperValue="127"/>
      </Button>
      <Button Caption="S.Cyan" ID="85">
       <WindowState Visible="True" X="525" Y="220" Width="80" Height="50"/>
@@ -1016,7 +1016,7 @@
       <Function ID="55"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="165"/>
-      <Feedbacks LowerValue="0" UpperValue="4"/>
+      <Feedbacks LowerValue="127" UpperValue="127"/>
      </Button>
      <Button Caption="S.White" ID="86">
       <WindowState Visible="True" X="620" Y="220" Width="80" Height="50"/>
@@ -1026,7 +1026,7 @@
       <Function ID="56"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="166"/>
-      <Feedbacks LowerValue="0" UpperValue="4"/>
+      <Feedbacks LowerValue="127" UpperValue="127"/>
      </Button>
      <Button Caption="S.Orange" ID="87">
       <WindowState Visible="True" X="715" Y="220" Width="80" Height="50"/>
@@ -1036,7 +1036,7 @@
       <Function ID="57"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="167"/>
-      <Feedbacks LowerValue="0" UpperValue="4"/>
+      <Feedbacks LowerValue="127" UpperValue="127"/>
      </Button>
     <Slider Caption="T.RED" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="50" Y="300" Width="80" Height="300"/>
