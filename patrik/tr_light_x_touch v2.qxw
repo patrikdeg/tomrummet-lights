@@ -16,7 +16,9 @@
     <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AU04859C)" Line="0">
      <PluginParameters UniverseChannels="512"/>
     </Output>
-    <Feedback Plugin="MIDI" UID="X-TOUCH COMPACT" Line="1"/>
+    <Feedback Plugin="MIDI" UID="X-TOUCH COMPACT" Line="1">
+     <PluginParameters mode="Note Velocity"/>
+    </Feedback>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2"/>
