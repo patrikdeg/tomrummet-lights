@@ -14,7 +14,7 @@
      <PluginParameters MIDISendNoteOff="false"/>
     </Input>
     <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AU04859C)" Line="0">
-     <PluginParameters UniverseChannels="384"/>
+     <PluginParameters UniverseChannels="512"/>
     </Output>
     <Feedback Plugin="MIDI" UID="X-TOUCH COMPACT" Line="1"/>
    </Universe>
@@ -108,7 +108,7 @@
    <Model>Tracpod 81</Model>
    <Mode>48 Channel</Mode>
    <ID>14</ID>
-   <Name>Tracpod TP-81 SR1</Name>
+   <Name>Tracpod VÄ-1</Name>
    <Universe>0</Universe>
    <Address>240</Address>
    <Channels>48</Channels>
@@ -118,9 +118,29 @@
    <Model>Tracpod 81</Model>
    <Mode>48 Channel</Mode>
    <ID>16</ID>
-   <Name>Tracpod TP-81 SL1</Name>
+   <Name>Tracpod HÖ-1</Name>
    <Universe>0</Universe>
    <Address>336</Address>
+   <Channels>48</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Alkalite</Manufacturer>
+   <Model>Tracpod 81</Model>
+   <Mode>48 Channel</Mode>
+   <ID>17</ID>
+   <Name>Tracpod HÖ-2</Name>
+   <Universe>0</Universe>
+   <Address>384</Address>
+   <Channels>48</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Alkalite</Manufacturer>
+   <Model>Tracpod 81</Model>
+   <Mode>48 Channel</Mode>
+   <ID>18</ID>
+   <Name>Tracpod VÄ-2</Name>
+   <Universe>0</Universe>
+   <Address>432</Address>
    <Channels>48</Channels>
   </Fixture>
   <FixtureGroup ID="3">
@@ -130,7 +150,7 @@
   </FixtureGroup>
   <FixtureGroup ID="4">
    <Name>trackpod</Name>
-   <Size X="48" Y="1"/>
+   <Size X="64" Y="1"/>
    <Head X="0" Y="0" Fixture="14">0</Head>
    <Head X="1" Y="0" Fixture="14">1</Head>
    <Head X="2" Y="0" Fixture="14">2</Head>
@@ -179,6 +199,22 @@
    <Head X="45" Y="0" Fixture="16">5</Head>
    <Head X="46" Y="0" Fixture="16">6</Head>
    <Head X="47" Y="0" Fixture="16">7</Head>
+   <Head X="48" Y="0" Fixture="17">0</Head>
+   <Head X="49" Y="0" Fixture="17">1</Head>
+   <Head X="50" Y="0" Fixture="17">2</Head>
+   <Head X="51" Y="0" Fixture="17">3</Head>
+   <Head X="52" Y="0" Fixture="17">4</Head>
+   <Head X="53" Y="0" Fixture="17">5</Head>
+   <Head X="54" Y="0" Fixture="17">6</Head>
+   <Head X="55" Y="0" Fixture="17">7</Head>
+   <Head X="56" Y="0" Fixture="18">0</Head>
+   <Head X="57" Y="0" Fixture="18">1</Head>
+   <Head X="58" Y="0" Fixture="18">2</Head>
+   <Head X="59" Y="0" Fixture="18">3</Head>
+   <Head X="60" Y="0" Fixture="18">4</Head>
+   <Head X="61" Y="0" Fixture="18">5</Head>
+   <Head X="62" Y="0" Fixture="18">6</Head>
+   <Head X="63" Y="0" Fixture="18">7</Head>
   </FixtureGroup>
   <FixtureGroup ID="5">
    <Name>trackpod bak</Name>
@@ -215,6 +251,42 @@
    <Head X="29" Y="0" Fixture="9">2</Head>
    <Head X="30" Y="0" Fixture="9">1</Head>
    <Head X="31" Y="0" Fixture="9">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="6">
+   <Name>trackpod sida</Name>
+   <Size X="32" Y="1"/>
+   <Head X="0" Y="0" Fixture="14">0</Head>
+   <Head X="1" Y="0" Fixture="14">1</Head>
+   <Head X="2" Y="0" Fixture="14">2</Head>
+   <Head X="3" Y="0" Fixture="14">3</Head>
+   <Head X="4" Y="0" Fixture="14">4</Head>
+   <Head X="5" Y="0" Fixture="14">5</Head>
+   <Head X="6" Y="0" Fixture="14">6</Head>
+   <Head X="7" Y="0" Fixture="14">7</Head>
+   <Head X="8" Y="0" Fixture="17">0</Head>
+   <Head X="9" Y="0" Fixture="17">1</Head>
+   <Head X="10" Y="0" Fixture="17">2</Head>
+   <Head X="11" Y="0" Fixture="17">3</Head>
+   <Head X="12" Y="0" Fixture="17">4</Head>
+   <Head X="13" Y="0" Fixture="17">5</Head>
+   <Head X="14" Y="0" Fixture="17">6</Head>
+   <Head X="15" Y="0" Fixture="17">7</Head>
+   <Head X="16" Y="0" Fixture="16">0</Head>
+   <Head X="17" Y="0" Fixture="16">1</Head>
+   <Head X="18" Y="0" Fixture="16">2</Head>
+   <Head X="19" Y="0" Fixture="16">3</Head>
+   <Head X="20" Y="0" Fixture="16">4</Head>
+   <Head X="21" Y="0" Fixture="16">5</Head>
+   <Head X="22" Y="0" Fixture="16">6</Head>
+   <Head X="23" Y="0" Fixture="16">7</Head>
+   <Head X="24" Y="0" Fixture="18">0</Head>
+   <Head X="25" Y="0" Fixture="18">1</Head>
+   <Head X="26" Y="0" Fixture="18">2</Head>
+   <Head X="27" Y="0" Fixture="18">3</Head>
+   <Head X="28" Y="0" Fixture="18">4</Head>
+   <Head X="29" Y="0" Fixture="18">5</Head>
+   <Head X="30" Y="0" Fixture="18">6</Head>
+   <Head X="31" Y="0" Fixture="18">7</Head>
   </FixtureGroup>
   <Function ID="3" Type="Scene" Name="smoke">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -765,6 +837,22 @@
       <Channel Fixture="16">31</Channel>
       <Channel Fixture="16">37</Channel>
       <Channel Fixture="16">43</Channel>
+      <Channel Fixture="17">1</Channel>
+      <Channel Fixture="17">7</Channel>
+      <Channel Fixture="17">13</Channel>
+      <Channel Fixture="17">19</Channel>
+      <Channel Fixture="17">25</Channel>
+      <Channel Fixture="17">31</Channel>
+      <Channel Fixture="17">37</Channel>
+      <Channel Fixture="17">43</Channel>
+      <Channel Fixture="18">1</Channel>
+      <Channel Fixture="18">7</Channel>
+      <Channel Fixture="18">13</Channel>
+      <Channel Fixture="18">19</Channel>
+      <Channel Fixture="18">25</Channel>
+      <Channel Fixture="18">31</Channel>
+      <Channel Fixture="18">37</Channel>
+      <Channel Fixture="18">43</Channel>
      </Level>
     </Slider>
     <Slider Caption="track green" ID="16" WidgetStyle="Slider" InvertedAppearance="false">
@@ -823,6 +911,22 @@
       <Channel Fixture="16">32</Channel>
       <Channel Fixture="16">38</Channel>
       <Channel Fixture="16">44</Channel>
+      <Channel Fixture="17">2</Channel>
+      <Channel Fixture="17">8</Channel>
+      <Channel Fixture="17">14</Channel>
+      <Channel Fixture="17">20</Channel>
+      <Channel Fixture="17">26</Channel>
+      <Channel Fixture="17">32</Channel>
+      <Channel Fixture="17">38</Channel>
+      <Channel Fixture="17">44</Channel>
+      <Channel Fixture="18">2</Channel>
+      <Channel Fixture="18">8</Channel>
+      <Channel Fixture="18">14</Channel>
+      <Channel Fixture="18">20</Channel>
+      <Channel Fixture="18">26</Channel>
+      <Channel Fixture="18">32</Channel>
+      <Channel Fixture="18">38</Channel>
+      <Channel Fixture="18">44</Channel>
      </Level>
     </Slider>
     <Slider Caption="track blue" ID="32" WidgetStyle="Slider" InvertedAppearance="false">
@@ -881,6 +985,22 @@
       <Channel Fixture="16">33</Channel>
       <Channel Fixture="16">39</Channel>
       <Channel Fixture="16">45</Channel>
+      <Channel Fixture="17">3</Channel>
+      <Channel Fixture="17">9</Channel>
+      <Channel Fixture="17">15</Channel>
+      <Channel Fixture="17">21</Channel>
+      <Channel Fixture="17">27</Channel>
+      <Channel Fixture="17">33</Channel>
+      <Channel Fixture="17">39</Channel>
+      <Channel Fixture="17">45</Channel>
+      <Channel Fixture="18">3</Channel>
+      <Channel Fixture="18">9</Channel>
+      <Channel Fixture="18">15</Channel>
+      <Channel Fixture="18">21</Channel>
+      <Channel Fixture="18">27</Channel>
+      <Channel Fixture="18">33</Channel>
+      <Channel Fixture="18">39</Channel>
+      <Channel Fixture="18">45</Channel>
      </Level>
     </Slider>
    </Frame>
