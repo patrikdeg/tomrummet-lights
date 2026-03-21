@@ -537,6 +537,11 @@
    <FixtureVal ID="12">0,248</FixtureVal>
    <FixtureVal ID="13">0,248</FixtureVal>
   </Function>
+  <Function ID="103" Type="Scene" Name="Revo Blackout">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">3,0</FixtureVal>
+   <FixtureVal ID="13">3,0</FixtureVal>
+  </Function>
   <Function ID="110" Type="Scene" Name="Revo Sel 01">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="12">1,15</FixtureVal>
@@ -1684,7 +1689,7 @@
      </Button>
     </SoloFrame>
     <SoloFrame Caption="Mode" ID="200">
-     <WindowState Visible="True" X="50" Y="100" Width="280" Height="50"/>
+     <WindowState Visible="True" X="50" Y="280" Width="380" Height="50"/>
      <AllowResize>False</AllowResize>
      <ShowHeader>False</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -1717,6 +1722,15 @@
       <Function ID="102"/>
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="201"/>
+     </Button>
+     <Button Caption="Blackout" ID="204">
+      <WindowState Visible="True" X="285" Y="0" Width="80" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <ForegroundColor>4294967295</ForegroundColor>
+      </Appearance>
+      <Function ID="103"/>
+      <Action>Toggle</Action>
      </Button>
     </SoloFrame>
     <Slider Caption="Revo Dim" ID="240" WidgetStyle="Slider" InvertedAppearance="false">
