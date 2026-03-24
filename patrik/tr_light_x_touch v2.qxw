@@ -11,7 +11,7 @@
    <BeatGenerator BeatType="Internal" BPM="120"/>
    <Universe Name="Universe 1" ID="0" Passthrough="True">
     <Input Plugin="MIDI" UID="X-TOUCH COMPACT" Line="0" Profile="Behringer X-Touch Compact">
-     <PluginParameters MIDISendNoteOff="false"/>
+     <PluginParameters MIDISendNoteOff="true"/>
     </Input>
     <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: AU04859C)" Line="0">
      <PluginParameters UniverseChannels="512"/>
@@ -928,7 +928,7 @@
        <Function ID="40"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="152"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="Blue" ID="72">
        <WindowState Visible="True" X="85" Y="0" Width="80" Height="50"/>
@@ -938,7 +938,7 @@
        <Function ID="41"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="153"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="Green" ID="73">
        <WindowState Visible="True" X="170" Y="0" Width="80" Height="50"/>
@@ -948,7 +948,7 @@
        <Function ID="42"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="154"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="Purple" ID="74">
        <WindowState Visible="True" X="255" Y="0" Width="80" Height="50"/>
@@ -958,7 +958,7 @@
        <Function ID="43"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="155"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="Yellow" ID="75">
        <WindowState Visible="True" X="340" Y="0" Width="80" Height="50"/>
@@ -969,7 +969,7 @@
        <Function ID="44"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="156"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="Cyan" ID="76">
        <WindowState Visible="True" X="425" Y="0" Width="80" Height="50"/>
@@ -980,7 +980,7 @@
        <Function ID="45"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="157"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="White" ID="77">
        <WindowState Visible="True" X="510" Y="0" Width="80" Height="50"/>
@@ -991,7 +991,7 @@
        <Function ID="46"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="158"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="Orange" ID="78">
        <WindowState Visible="True" X="595" Y="0" Width="80" Height="50"/>
@@ -1002,7 +1002,7 @@
        <Function ID="47"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="159"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
      </SoloFrame>
      <SoloFrame Caption="Sido-färger" ID="403">
@@ -1020,7 +1020,7 @@
        <Function ID="50"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="160"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="S.Blue" ID="81">
        <WindowState Visible="True" X="85" Y="0" Width="80" Height="50"/>
@@ -1030,7 +1030,7 @@
        <Function ID="51"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="161"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="S.Green" ID="82">
        <WindowState Visible="True" X="170" Y="0" Width="80" Height="50"/>
@@ -1040,7 +1040,7 @@
        <Function ID="52"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="162"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="S.Purple" ID="83">
        <WindowState Visible="True" X="255" Y="0" Width="80" Height="50"/>
@@ -1050,7 +1050,7 @@
        <Function ID="53"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="163"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="S.Yellow" ID="84">
        <WindowState Visible="True" X="340" Y="0" Width="80" Height="50"/>
@@ -1060,7 +1060,7 @@
        <Function ID="54"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="164"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="S.Cyan" ID="85">
        <WindowState Visible="True" X="425" Y="0" Width="80" Height="50"/>
@@ -1070,7 +1070,7 @@
        <Function ID="55"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="165"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="S.White" ID="86">
        <WindowState Visible="True" X="510" Y="0" Width="80" Height="50"/>
@@ -1080,7 +1080,7 @@
        <Function ID="56"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="166"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
       <Button Caption="S.Orange" ID="87">
        <WindowState Visible="True" X="595" Y="0" Width="80" Height="50"/>
@@ -1090,7 +1090,7 @@
        <Function ID="57"/>
        <Action>Toggle</Action>
        <Input ID="0" Universe="0" Channel="167"/>
-       <Feedbacks LowerValue="127" UpperValue="127"/>
+       <Feedbacks LowerValue="0" UpperValue="4"/>
       </Button>
      </SoloFrame>
     <Slider Caption="T.RED" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
