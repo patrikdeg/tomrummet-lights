@@ -872,7 +872,7 @@
        </Appearance>
        <Function ID="48"/>
        <Action>Toggle</Action>
-       <Input ID="0" Universe="0" Channel="149"/>
+       <Input ID="0" Universe="0" Channel="147"/>
       </Button>
       <Button Caption="Slow Pulse" ID="401">
        <WindowState Visible="True" X="340" Y="0" Width="80" Height="50"/>
@@ -881,7 +881,7 @@
        </Appearance>
        <Function ID="135"/>
        <Action>Toggle</Action>
-       <Input ID="0" Universe="0" Channel="150"/>
+       <Input ID="0" Universe="0" Channel="148"/>
       </Button>
       <Button Caption="Blinder" ID="33">
        <WindowState Visible="True" X="475" Y="0" Width="90" Height="50"/>
@@ -891,7 +891,7 @@
        </Appearance>
        <Function ID="18"/>
        <Action>Flash</Action>
-       <Input ID="0" Universe="0" Channel="147"/>
+       <Input ID="0" Universe="0" Channel="149"/>
       </Button>
       <Button Caption="Strobe" ID="34">
        <WindowState Visible="True" X="570" Y="0" Width="90" Height="50"/>
@@ -901,7 +901,7 @@
        </Appearance>
        <Function ID="19"/>
        <Action>Flash</Action>
-       <Input ID="0" Universe="0" Channel="148"/>
+       <Input ID="0" Universe="0" Channel="150"/>
       </Button>
      </SoloFrame>
      <Button Caption="Smoke" ID="20">
@@ -910,7 +910,7 @@
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
       <Function ID="3"/>
-      <Action>Toggle</Action>
+      <Action>Flash</Action>
       <Input ID="0" Universe="0" Channel="151"/>
      </Button>
      <SoloFrame Caption="Bak-färger" ID="402">
