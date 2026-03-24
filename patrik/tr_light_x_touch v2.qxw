@@ -339,7 +339,7 @@
    <Property Name="stepsize" Value="28"/>
   </Function>
   <Function ID="18" Type="RGBMatrix" Name="trackpod blinder">
-   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Speed FadeIn="0" FadeOut="700" Duration="350"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Blinder</Algorithm>
