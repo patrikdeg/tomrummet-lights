@@ -522,6 +522,16 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>6</FixtureGroup>
   </Function>
+  <Function ID="135" Type="RGBMatrix" Name="TP Slow Pulse">
+   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Noise</Algorithm>
+   <Color Index="0">4294967295</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>5</FixtureGroup>
+   <Property Name="noisePercentage" Value="Low"/>
+  </Function>
   <Function ID="100" Type="Scene" Name="Revo Mode: Pattern">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="12">0,60</FixtureVal>
@@ -821,53 +831,81 @@
      <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
     </Slider>
-     <Button Caption="sparkle" ID="2">
-      <WindowState Visible="True" X="145" Y="100" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
-      </Appearance>
-      <Function ID="16"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="145"/>
-     </Button>
-     <Button Caption="fire" ID="1">
-      <WindowState Visible="True" X="240" Y="100" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
-      </Appearance>
-      <Function ID="17"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="146"/>
-     </Button>
-     <Button Caption="strobe" ID="34">
-      <WindowState Visible="True" X="430" Y="100" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
-      </Appearance>
-      <Function ID="19"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="148"/>
-     </Button>
-     <Button Caption="blinder" ID="33">
-      <WindowState Visible="True" X="335" Y="100" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
-      </Appearance>
-      <Function ID="18"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="147"/>
-     </Button>
-     <Button Caption="k.rider" ID="0">
-      <WindowState Visible="True" X="50" Y="100" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
-      </Appearance>
-      <Function ID="15"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="144"/>
-     </Button>
-     <Button Caption="smoke" ID="20">
-      <WindowState Visible="True" X="525" Y="100" Width="80" Height="50"/>
+     <SoloFrame Caption="Effekter" ID="400">
+      <WindowState Visible="True" X="50" Y="95" Width="670" Height="60"/>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>False</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Button Caption="K.Rider" ID="0">
+       <WindowState Visible="True" X="0" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4282664004</BackgroundColor>
+       </Appearance>
+       <Function ID="15"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="144"/>
+      </Button>
+      <Button Caption="Sparkle" ID="2">
+       <WindowState Visible="True" X="85" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4282664004</BackgroundColor>
+       </Appearance>
+       <Function ID="16"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="145"/>
+      </Button>
+      <Button Caption="Fire" ID="1">
+       <WindowState Visible="True" X="170" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4282664004</BackgroundColor>
+       </Appearance>
+       <Function ID="17"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="146"/>
+      </Button>
+      <Button Caption="Rainbow" ID="79">
+       <WindowState Visible="True" X="255" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4282664004</BackgroundColor>
+       </Appearance>
+       <Function ID="48"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="168"/>
+      </Button>
+      <Button Caption="Slow Pulse" ID="401">
+       <WindowState Visible="True" X="340" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4282664004</BackgroundColor>
+       </Appearance>
+       <Function ID="135"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="169"/>
+      </Button>
+      <Button Caption="Blinder" ID="33">
+       <WindowState Visible="True" X="475" Y="0" Width="90" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4294967295</BackgroundColor>
+        <ForegroundColor>4278190080</ForegroundColor>
+       </Appearance>
+       <Function ID="18"/>
+       <Action>Flash</Action>
+       <Input ID="0" Universe="0" Channel="147"/>
+      </Button>
+      <Button Caption="Strobe" ID="34">
+       <WindowState Visible="True" X="570" Y="0" Width="90" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4294967295</BackgroundColor>
+        <ForegroundColor>4278190080</ForegroundColor>
+       </Appearance>
+       <Function ID="19"/>
+       <Action>Flash</Action>
+       <Input ID="0" Universe="0" Channel="148"/>
+      </Button>
+     </SoloFrame>
+     <Button Caption="Smoke" ID="20">
+      <WindowState Visible="True" X="730" Y="100" Width="80" Height="50"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -875,174 +913,186 @@
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="149"/>
      </Button>
-     <Button Caption="(-)" ID="316">
-      <WindowState Visible="True" X="620" Y="100" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
-      </Appearance>
-     </Button>
-     <Button Caption="(-)" ID="317">
-      <WindowState Visible="True" X="715" Y="100" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4282664004</BackgroundColor>
-      </Appearance>
-     </Button>
-     <Button Caption="Red" ID="71">
-      <WindowState Visible="True" X="50" Y="160" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4294901760</BackgroundColor>
-      </Appearance>
-      <Function ID="40"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="152"/>
-     </Button>
-     <Button Caption="Blue" ID="72">
-      <WindowState Visible="True" X="145" Y="160" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278190335</BackgroundColor>
-      </Appearance>
-      <Function ID="41"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="153"/>
-     </Button>
-     <Button Caption="Green" ID="73">
-      <WindowState Visible="True" X="240" Y="160" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278234880</BackgroundColor>
-      </Appearance>
-      <Function ID="42"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="154"/>
-     </Button>
-     <Button Caption="Purple" ID="74">
-      <WindowState Visible="True" X="335" Y="160" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4288217343</BackgroundColor>
-      </Appearance>
-      <Function ID="43"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="155"/>
-     </Button>
-     <Button Caption="Yellow" ID="75">
-      <WindowState Visible="True" X="430" Y="160" Width="80" Height="50"/>
-      <Appearance>
-       <ForegroundColor>4278190080</ForegroundColor>
-       <BackgroundColor>4294967040</BackgroundColor>
-      </Appearance>
-      <Function ID="44"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="156"/>
-     </Button>
-     <Button Caption="Cyan" ID="76">
-      <WindowState Visible="True" X="525" Y="160" Width="80" Height="50"/>
-      <Appearance>
-       <ForegroundColor>4278190080</ForegroundColor>
-       <BackgroundColor>4278255615</BackgroundColor>
-      </Appearance>
-      <Function ID="45"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="157"/>
-     </Button>
-     <Button Caption="White" ID="77">
-      <WindowState Visible="True" X="620" Y="160" Width="80" Height="50"/>
-      <Appearance>
-       <ForegroundColor>4278190080</ForegroundColor>
-       <BackgroundColor>4294967295</BackgroundColor>
-      </Appearance>
-      <Function ID="46"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="158"/>
-     </Button>
-     <Button Caption="Orange" ID="78">
-      <WindowState Visible="True" X="715" Y="160" Width="80" Height="50"/>
-      <Appearance>
-       <ForegroundColor>4278190080</ForegroundColor>
-       <BackgroundColor>4294944000</BackgroundColor>
-      </Appearance>
-      <Function ID="47"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="159"/>
-     </Button>
-     <Button Caption="S.Red" ID="80">
-      <WindowState Visible="True" X="50" Y="220" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4294901760</BackgroundColor>
-      </Appearance>
-      <Function ID="50"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="160"/>
-      <Feedbacks LowerValue="127" UpperValue="127"/>
-     </Button>
-     <Button Caption="S.Blue" ID="81">
-      <WindowState Visible="True" X="145" Y="220" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278190335</BackgroundColor>
-      </Appearance>
-      <Function ID="51"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="161"/>
-      <Feedbacks LowerValue="127" UpperValue="127"/>
-     </Button>
-     <Button Caption="S.Green" ID="82">
-      <WindowState Visible="True" X="240" Y="220" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278234880</BackgroundColor>
-      </Appearance>
-      <Function ID="52"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="162"/>
-      <Feedbacks LowerValue="127" UpperValue="127"/>
-     </Button>
-     <Button Caption="S.Purple" ID="83">
-      <WindowState Visible="True" X="335" Y="220" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4290462463</BackgroundColor>
-      </Appearance>
-      <Function ID="53"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="163"/>
-      <Feedbacks LowerValue="127" UpperValue="127"/>
-     </Button>
-     <Button Caption="S.Yellow" ID="84">
-      <WindowState Visible="True" X="430" Y="220" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4294967040</BackgroundColor>
-      </Appearance>
-      <Function ID="54"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="164"/>
-      <Feedbacks LowerValue="127" UpperValue="127"/>
-     </Button>
-     <Button Caption="S.Cyan" ID="85">
-      <WindowState Visible="True" X="525" Y="220" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278255615</BackgroundColor>
-      </Appearance>
-      <Function ID="55"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="165"/>
-      <Feedbacks LowerValue="127" UpperValue="127"/>
-     </Button>
-     <Button Caption="S.White" ID="86">
-      <WindowState Visible="True" X="620" Y="220" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4294967295</BackgroundColor>
-      </Appearance>
-      <Function ID="56"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="166"/>
-      <Feedbacks LowerValue="127" UpperValue="127"/>
-     </Button>
-     <Button Caption="S.Orange" ID="87">
-      <WindowState Visible="True" X="715" Y="220" Width="80" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4294944000</BackgroundColor>
-      </Appearance>
-      <Function ID="57"/>
-      <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="167"/>
-      <Feedbacks LowerValue="127" UpperValue="127"/>
-     </Button>
+     <SoloFrame Caption="Bak-färger" ID="402">
+      <WindowState Visible="True" X="50" Y="155" Width="670" Height="60"/>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>False</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Button Caption="Red" ID="71">
+       <WindowState Visible="True" X="0" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4294901760</BackgroundColor>
+       </Appearance>
+       <Function ID="40"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="152"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="Blue" ID="72">
+       <WindowState Visible="True" X="85" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4278190335</BackgroundColor>
+       </Appearance>
+       <Function ID="41"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="153"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="Green" ID="73">
+       <WindowState Visible="True" X="170" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4278234880</BackgroundColor>
+       </Appearance>
+       <Function ID="42"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="154"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="Purple" ID="74">
+       <WindowState Visible="True" X="255" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4288217343</BackgroundColor>
+       </Appearance>
+       <Function ID="43"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="155"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="Yellow" ID="75">
+       <WindowState Visible="True" X="340" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294967040</BackgroundColor>
+       </Appearance>
+       <Function ID="44"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="156"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="Cyan" ID="76">
+       <WindowState Visible="True" X="425" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4278255615</BackgroundColor>
+       </Appearance>
+       <Function ID="45"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="157"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="White" ID="77">
+       <WindowState Visible="True" X="510" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294967295</BackgroundColor>
+       </Appearance>
+       <Function ID="46"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="158"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="Orange" ID="78">
+       <WindowState Visible="True" X="595" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294944000</BackgroundColor>
+       </Appearance>
+       <Function ID="47"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="159"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+     </SoloFrame>
+     <SoloFrame Caption="Sido-färger" ID="403">
+      <WindowState Visible="True" X="50" Y="215" Width="670" Height="60"/>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>False</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Button Caption="S.Red" ID="80">
+       <WindowState Visible="True" X="0" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4294901760</BackgroundColor>
+       </Appearance>
+       <Function ID="50"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="160"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="S.Blue" ID="81">
+       <WindowState Visible="True" X="85" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4278190335</BackgroundColor>
+       </Appearance>
+       <Function ID="51"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="161"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="S.Green" ID="82">
+       <WindowState Visible="True" X="170" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4278234880</BackgroundColor>
+       </Appearance>
+       <Function ID="52"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="162"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="S.Purple" ID="83">
+       <WindowState Visible="True" X="255" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4290462463</BackgroundColor>
+       </Appearance>
+       <Function ID="53"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="163"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="S.Yellow" ID="84">
+       <WindowState Visible="True" X="340" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4294967040</BackgroundColor>
+       </Appearance>
+       <Function ID="54"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="164"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="S.Cyan" ID="85">
+       <WindowState Visible="True" X="425" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4278255615</BackgroundColor>
+       </Appearance>
+       <Function ID="55"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="165"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="S.White" ID="86">
+       <WindowState Visible="True" X="510" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4294967295</BackgroundColor>
+       </Appearance>
+       <Function ID="56"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="166"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+      <Button Caption="S.Orange" ID="87">
+       <WindowState Visible="True" X="595" Y="0" Width="80" Height="50"/>
+       <Appearance>
+        <BackgroundColor>4294944000</BackgroundColor>
+       </Appearance>
+       <Function ID="57"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="167"/>
+       <Feedbacks LowerValue="127" UpperValue="127"/>
+      </Button>
+     </SoloFrame>
     <Slider Caption="T.RED" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="50" Y="300" Width="80" Height="300"/>
      <Appearance>
