@@ -9,7 +9,7 @@
  <Engine>
   <InputOutputMap>
    <BeatGenerator BeatType="Internal" BPM="120"/>
-   <Universe Name="Universe 1" ID="0" Passthrough="True">
+   <Universe Name="Universe 1" ID="0" Passthrough="False">
     <Input Plugin="MIDI" UID="X-TOUCH COMPACT" Line="0" Profile="Behringer X-Touch Compact">
      <PluginParameters MIDISendNoteOff="false"/>
     </Input>
