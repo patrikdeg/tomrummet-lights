@@ -692,7 +692,7 @@
   </Monitor>
  </Engine>
  <VirtualConsole>
-   <Frame Caption="Page 1" ID="0">
+   <Frame Caption="Live" ID="0">
     <Appearance>
      <BackgroundColor>4278190080</BackgroundColor>
      <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -1402,7 +1402,29 @@
       </Appearance>
      </Button>
   </Frame>
-   <Frame Caption="Page 2 - Revo III" ID="1">
+   <Frame Caption="Live - effects" ID="1">
+    <Appearance>
+     <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+    </Appearance>
+    <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+  </Frame>
+   <Frame Caption="Mood" ID="2">
+    <Appearance>
+     <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+    </Appearance>
+    <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+  </Frame>
+   <Frame Caption="Revo III - lab" ID="3">
     <Appearance>
      <BackgroundColor>4278190080</BackgroundColor>
      <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -1882,28 +1904,6 @@
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
      </Button>
-  </Frame>
-   <Frame Caption="Page 3" ID="2">
-    <Appearance>
-     <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
-    </Appearance>
-    <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
-    <AllowResize>False</AllowResize>
-    <ShowHeader>False</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-  </Frame>
-   <Frame Caption="Page 4" ID="3">
-    <Appearance>
-     <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
-    </Appearance>
-    <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
-    <AllowResize>False</AllowResize>
-    <ShowHeader>False</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
   </Frame>
  </VirtualConsole>
 </Workspace>
