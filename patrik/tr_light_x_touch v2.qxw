@@ -913,8 +913,15 @@
       <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="149"/>
      </Button>
+     <Frame Caption="Bak" ID="405">
+      <WindowState Visible="True" X="50" Y="155" Width="670" Height="395"/>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>False</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
      <SoloFrame Caption="Bak-färger" ID="402">
-      <WindowState Visible="True" X="50" Y="155" Width="670" Height="60"/>
+      <WindowState Visible="True" X="0" Y="0" Width="670" Height="60"/>
       <AllowResize>False</AllowResize>
       <ShowHeader>False</ShowHeader>
       <ShowEnableButton>False</ShowEnableButton>
@@ -1005,8 +1012,25 @@
        <Feedbacks LowerValue="127" UpperValue="127"/>
       </Button>
      </SoloFrame>
+     <Slider Caption="B.DIM" ID="36" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="380" Y="85" Width="80" Height="300"/>
+      <Appearance>
+       <BackgroundColor>4282664004</BackgroundColor>
+      </Appearance>
+      <Input ID="0" Universe="0" Channel="4"/>
+      <SliderMode ValueDisplayStyle="Percentage">Submaster</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+     </Slider>
+     </Frame>
+     <Frame Caption="Sido" ID="404">
+      <WindowState Visible="True" X="50" Y="215" Width="670" Height="395"/>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>False</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
      <SoloFrame Caption="Sido-färger" ID="403">
-      <WindowState Visible="True" X="50" Y="215" Width="670" Height="60"/>
+      <WindowState Visible="True" X="0" Y="0" Width="670" Height="60"/>
       <AllowResize>False</AllowResize>
       <ShowHeader>False</ShowHeader>
       <ShowEnableButton>False</ShowEnableButton>
@@ -1093,6 +1117,16 @@
        <Feedbacks LowerValue="127" UpperValue="127"/>
       </Button>
      </SoloFrame>
+     <Slider Caption="S.DIM" ID="35" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="True" X="380" Y="85" Width="80" Height="300"/>
+      <Appearance>
+       <BackgroundColor>4282664004</BackgroundColor>
+      </Appearance>
+      <Input ID="0" Universe="0" Channel="5"/>
+      <SliderMode ValueDisplayStyle="Percentage">Submaster</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+     </Slider>
+     </Frame>
     <Slider Caption="T.RED" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="50" Y="300" Width="80" Height="300"/>
      <Appearance>
@@ -1320,23 +1354,11 @@
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
-     <Input ID="0" Universe="0" Channel="4"/>
+     <Input ID="0" Universe="0" Channel="6"/>
      <SliderMode ValueDisplayStyle="Percentage" Monitor="true">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="4">0</Channel>
      </Level>
-    </Slider>
-    <Slider Caption="S.DIM" ID="35" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="430" Y="300" Width="80" Height="300"/>
-     <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
-     </Appearance>
-     <Input ID="0" Universe="0" Channel="5"/>
-     <SliderMode ValueDisplayStyle="Percentage">Playback</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0"/>
-     <Playback>
-      <Function>58</Function>
-     </Playback>
     </Slider>
     <Slider Caption="GM" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="850" Y="300" Width="80" Height="300"/>
