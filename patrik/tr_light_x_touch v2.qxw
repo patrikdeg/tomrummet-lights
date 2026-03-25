@@ -679,6 +679,72 @@
    <FixtureVal ID="12">1,253</FixtureVal>
    <FixtureVal ID="13">1,253</FixtureVal>
   </Function>
+  <Function ID="200" Type="RGBMatrix" Name="FX Wave">
+   <Speed FadeIn="0" FadeOut="0" Duration="80"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Waves</Algorithm>
+   <Color Index="0">4278255615</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="201" Type="RGBMatrix" Name="FX Surround Sweep">
+   <Speed FadeIn="0" FadeOut="0" Duration="60"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Stripes</Algorithm>
+   <Color Index="0">4294967295</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="202" Type="RGBMatrix" Name="FX Color Chase">
+   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <Color Index="0">4294901760</Color>
+   <Color Index="1">4278190335</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="203" Type="RGBMatrix" Name="FX Build Up">
+   <Speed FadeIn="0" FadeOut="0" Duration="80"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill From Center</Algorithm>
+   <Color Index="0">4294967295</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="204" Type="RGBMatrix" Name="FX Random Flicker">
+   <Speed FadeIn="0" FadeOut="50" Duration="80"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Noise</Algorithm>
+   <Color Index="0">4294967295</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+   <Property Name="noisePercentage" Value="High"/>
+  </Function>
+  <Function ID="205" Type="RGBMatrix" Name="FX Pulse">
+   <Speed FadeIn="0" FadeOut="0" Duration="120"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Fill Unfill</Algorithm>
+   <Color Index="0">4294959050</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="206" Type="RGBMatrix" Name="FX Split Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Alternate</Algorithm>
+   <Color Index="0">4294901760</Color>
+   <Color Index="1">4278190335</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -705,29 +771,227 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Slider Caption="Enc 1" ID="300" WidgetStyle="Knob" InvertedAppearance="false">
+    <Slider Caption="T.RED" ID="300" WidgetStyle="Knob" InvertedAppearance="false">
      <WindowState Visible="True" X="50" Y="10" Width="80" Height="80"/>
      <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
+      <BackgroundColor>4294901760</BackgroundColor>
      </Appearance>
+     <Input ID="0" Universe="0" Channel="10"/>
      <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">1</Channel>
+      <Channel Fixture="6">7</Channel>
+      <Channel Fixture="6">13</Channel>
+      <Channel Fixture="6">19</Channel>
+      <Channel Fixture="6">25</Channel>
+      <Channel Fixture="6">31</Channel>
+      <Channel Fixture="6">37</Channel>
+      <Channel Fixture="6">43</Channel>
+      <Channel Fixture="7">1</Channel>
+      <Channel Fixture="7">7</Channel>
+      <Channel Fixture="7">13</Channel>
+      <Channel Fixture="7">19</Channel>
+      <Channel Fixture="7">25</Channel>
+      <Channel Fixture="7">31</Channel>
+      <Channel Fixture="7">37</Channel>
+      <Channel Fixture="7">43</Channel>
+      <Channel Fixture="8">1</Channel>
+      <Channel Fixture="8">7</Channel>
+      <Channel Fixture="8">13</Channel>
+      <Channel Fixture="8">19</Channel>
+      <Channel Fixture="8">25</Channel>
+      <Channel Fixture="8">31</Channel>
+      <Channel Fixture="8">37</Channel>
+      <Channel Fixture="8">43</Channel>
+      <Channel Fixture="9">1</Channel>
+      <Channel Fixture="9">7</Channel>
+      <Channel Fixture="9">13</Channel>
+      <Channel Fixture="9">19</Channel>
+      <Channel Fixture="9">25</Channel>
+      <Channel Fixture="9">31</Channel>
+      <Channel Fixture="9">37</Channel>
+      <Channel Fixture="9">43</Channel>
+      <Channel Fixture="14">1</Channel>
+      <Channel Fixture="14">7</Channel>
+      <Channel Fixture="14">13</Channel>
+      <Channel Fixture="14">19</Channel>
+      <Channel Fixture="14">25</Channel>
+      <Channel Fixture="14">31</Channel>
+      <Channel Fixture="14">37</Channel>
+      <Channel Fixture="14">43</Channel>
+      <Channel Fixture="16">1</Channel>
+      <Channel Fixture="16">7</Channel>
+      <Channel Fixture="16">13</Channel>
+      <Channel Fixture="16">19</Channel>
+      <Channel Fixture="16">25</Channel>
+      <Channel Fixture="16">31</Channel>
+      <Channel Fixture="16">37</Channel>
+      <Channel Fixture="16">43</Channel>
+      <Channel Fixture="17">1</Channel>
+      <Channel Fixture="17">7</Channel>
+      <Channel Fixture="17">13</Channel>
+      <Channel Fixture="17">19</Channel>
+      <Channel Fixture="17">25</Channel>
+      <Channel Fixture="17">31</Channel>
+      <Channel Fixture="17">37</Channel>
+      <Channel Fixture="17">43</Channel>
+      <Channel Fixture="18">1</Channel>
+      <Channel Fixture="18">7</Channel>
+      <Channel Fixture="18">13</Channel>
+      <Channel Fixture="18">19</Channel>
+      <Channel Fixture="18">25</Channel>
+      <Channel Fixture="18">31</Channel>
+      <Channel Fixture="18">37</Channel>
+      <Channel Fixture="18">43</Channel>
+     </Level>
     </Slider>
-    <Slider Caption="Enc 2" ID="301" WidgetStyle="Knob" InvertedAppearance="false">
+    <Slider Caption="T.GREEN" ID="301" WidgetStyle="Knob" InvertedAppearance="false">
      <WindowState Visible="True" X="145" Y="10" Width="80" Height="80"/>
      <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
+      <BackgroundColor>4278255360</BackgroundColor>
      </Appearance>
+     <Input ID="0" Universe="0" Channel="11"/>
      <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">2</Channel>
+      <Channel Fixture="6">8</Channel>
+      <Channel Fixture="6">14</Channel>
+      <Channel Fixture="6">20</Channel>
+      <Channel Fixture="6">26</Channel>
+      <Channel Fixture="6">32</Channel>
+      <Channel Fixture="6">38</Channel>
+      <Channel Fixture="6">44</Channel>
+      <Channel Fixture="7">2</Channel>
+      <Channel Fixture="7">8</Channel>
+      <Channel Fixture="7">14</Channel>
+      <Channel Fixture="7">20</Channel>
+      <Channel Fixture="7">26</Channel>
+      <Channel Fixture="7">32</Channel>
+      <Channel Fixture="7">38</Channel>
+      <Channel Fixture="7">44</Channel>
+      <Channel Fixture="8">2</Channel>
+      <Channel Fixture="8">8</Channel>
+      <Channel Fixture="8">14</Channel>
+      <Channel Fixture="8">20</Channel>
+      <Channel Fixture="8">26</Channel>
+      <Channel Fixture="8">32</Channel>
+      <Channel Fixture="8">38</Channel>
+      <Channel Fixture="8">44</Channel>
+      <Channel Fixture="9">2</Channel>
+      <Channel Fixture="9">8</Channel>
+      <Channel Fixture="9">14</Channel>
+      <Channel Fixture="9">20</Channel>
+      <Channel Fixture="9">26</Channel>
+      <Channel Fixture="9">32</Channel>
+      <Channel Fixture="9">38</Channel>
+      <Channel Fixture="9">44</Channel>
+      <Channel Fixture="14">2</Channel>
+      <Channel Fixture="14">8</Channel>
+      <Channel Fixture="14">14</Channel>
+      <Channel Fixture="14">20</Channel>
+      <Channel Fixture="14">26</Channel>
+      <Channel Fixture="14">32</Channel>
+      <Channel Fixture="14">38</Channel>
+      <Channel Fixture="14">44</Channel>
+      <Channel Fixture="16">2</Channel>
+      <Channel Fixture="16">8</Channel>
+      <Channel Fixture="16">14</Channel>
+      <Channel Fixture="16">20</Channel>
+      <Channel Fixture="16">26</Channel>
+      <Channel Fixture="16">32</Channel>
+      <Channel Fixture="16">38</Channel>
+      <Channel Fixture="16">44</Channel>
+      <Channel Fixture="17">2</Channel>
+      <Channel Fixture="17">8</Channel>
+      <Channel Fixture="17">14</Channel>
+      <Channel Fixture="17">20</Channel>
+      <Channel Fixture="17">26</Channel>
+      <Channel Fixture="17">32</Channel>
+      <Channel Fixture="17">38</Channel>
+      <Channel Fixture="17">44</Channel>
+      <Channel Fixture="18">2</Channel>
+      <Channel Fixture="18">8</Channel>
+      <Channel Fixture="18">14</Channel>
+      <Channel Fixture="18">20</Channel>
+      <Channel Fixture="18">26</Channel>
+      <Channel Fixture="18">32</Channel>
+      <Channel Fixture="18">38</Channel>
+      <Channel Fixture="18">44</Channel>
+     </Level>
     </Slider>
-    <Slider Caption="Enc 3" ID="302" WidgetStyle="Knob" InvertedAppearance="false">
+    <Slider Caption="T.BLUE" ID="302" WidgetStyle="Knob" InvertedAppearance="false">
      <WindowState Visible="True" X="240" Y="10" Width="80" Height="80"/>
      <Appearance>
-      <BackgroundColor>4282664004</BackgroundColor>
+      <BackgroundColor>4278190335</BackgroundColor>
      </Appearance>
+     <Input ID="0" Universe="0" Channel="12"/>
      <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="6">3</Channel>
+      <Channel Fixture="6">9</Channel>
+      <Channel Fixture="6">15</Channel>
+      <Channel Fixture="6">21</Channel>
+      <Channel Fixture="6">27</Channel>
+      <Channel Fixture="6">33</Channel>
+      <Channel Fixture="6">39</Channel>
+      <Channel Fixture="6">45</Channel>
+      <Channel Fixture="7">3</Channel>
+      <Channel Fixture="7">9</Channel>
+      <Channel Fixture="7">15</Channel>
+      <Channel Fixture="7">21</Channel>
+      <Channel Fixture="7">27</Channel>
+      <Channel Fixture="7">33</Channel>
+      <Channel Fixture="7">39</Channel>
+      <Channel Fixture="7">45</Channel>
+      <Channel Fixture="8">3</Channel>
+      <Channel Fixture="8">9</Channel>
+      <Channel Fixture="8">15</Channel>
+      <Channel Fixture="8">21</Channel>
+      <Channel Fixture="8">27</Channel>
+      <Channel Fixture="8">33</Channel>
+      <Channel Fixture="8">39</Channel>
+      <Channel Fixture="8">45</Channel>
+      <Channel Fixture="9">3</Channel>
+      <Channel Fixture="9">9</Channel>
+      <Channel Fixture="9">15</Channel>
+      <Channel Fixture="9">21</Channel>
+      <Channel Fixture="9">27</Channel>
+      <Channel Fixture="9">33</Channel>
+      <Channel Fixture="9">39</Channel>
+      <Channel Fixture="9">45</Channel>
+      <Channel Fixture="14">3</Channel>
+      <Channel Fixture="14">9</Channel>
+      <Channel Fixture="14">15</Channel>
+      <Channel Fixture="14">21</Channel>
+      <Channel Fixture="14">27</Channel>
+      <Channel Fixture="14">33</Channel>
+      <Channel Fixture="14">39</Channel>
+      <Channel Fixture="14">45</Channel>
+      <Channel Fixture="16">3</Channel>
+      <Channel Fixture="16">9</Channel>
+      <Channel Fixture="16">15</Channel>
+      <Channel Fixture="16">21</Channel>
+      <Channel Fixture="16">27</Channel>
+      <Channel Fixture="16">33</Channel>
+      <Channel Fixture="16">39</Channel>
+      <Channel Fixture="16">45</Channel>
+      <Channel Fixture="17">3</Channel>
+      <Channel Fixture="17">9</Channel>
+      <Channel Fixture="17">15</Channel>
+      <Channel Fixture="17">21</Channel>
+      <Channel Fixture="17">27</Channel>
+      <Channel Fixture="17">33</Channel>
+      <Channel Fixture="17">39</Channel>
+      <Channel Fixture="17">45</Channel>
+      <Channel Fixture="18">3</Channel>
+      <Channel Fixture="18">9</Channel>
+      <Channel Fixture="18">15</Channel>
+      <Channel Fixture="18">21</Channel>
+      <Channel Fixture="18">27</Channel>
+      <Channel Fixture="18">33</Channel>
+      <Channel Fixture="18">39</Channel>
+      <Channel Fixture="18">45</Channel>
+     </Level>
     </Slider>
     <Slider Caption="Enc 4" ID="303" WidgetStyle="Knob" InvertedAppearance="false">
      <WindowState Visible="True" X="335" Y="10" Width="80" Height="80"/>
@@ -1412,6 +1676,7 @@
   </Frame>
    <Frame Caption="Live - effects" ID="1">
     <Appearance>
+     <BackgroundColor>4278190080</BackgroundColor>
      <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
     </Appearance>
     <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
@@ -1420,6 +1685,81 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
+    <SoloFrame Caption="Effekter" ID="500">
+     <WindowState Visible="True" X="50" Y="50" Width="760" Height="80"/>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Wave" ID="501">
+      <WindowState Visible="True" X="0" Y="0" Width="95" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4278233855</BackgroundColor>
+      </Appearance>
+      <Function ID="200"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="199"/>
+     </Button>
+     <Button Caption="Sweep" ID="502">
+      <WindowState Visible="True" X="95" Y="0" Width="95" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <ForegroundColor>4278190080</ForegroundColor>
+      </Appearance>
+      <Function ID="201"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="200"/>
+     </Button>
+     <Button Caption="Color Chase" ID="503">
+      <WindowState Visible="True" X="190" Y="0" Width="95" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4294901760</BackgroundColor>
+      </Appearance>
+      <Function ID="202"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="201"/>
+     </Button>
+     <Button Caption="Build Up" ID="504">
+      <WindowState Visible="True" X="285" Y="0" Width="95" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <ForegroundColor>4278190080</ForegroundColor>
+      </Appearance>
+      <Function ID="203"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="202"/>
+     </Button>
+     <Button Caption="Flicker" ID="505">
+      <WindowState Visible="True" X="380" Y="0" Width="95" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4294944000</BackgroundColor>
+       <ForegroundColor>4278190080</ForegroundColor>
+      </Appearance>
+      <Function ID="204"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="203"/>
+     </Button>
+     <Button Caption="Pulse" ID="506">
+      <WindowState Visible="True" X="475" Y="0" Width="95" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4294959050</BackgroundColor>
+       <ForegroundColor>4278190080</ForegroundColor>
+      </Appearance>
+      <Function ID="205"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="204"/>
+     </Button>
+     <Button Caption="Split" ID="507">
+      <WindowState Visible="True" X="570" Y="0" Width="95" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4286578816</BackgroundColor>
+      </Appearance>
+      <Function ID="206"/>
+      <Action>Toggle</Action>
+      <Input ID="0" Universe="0" Channel="205"/>
+     </Button>
+    </SoloFrame>
   </Frame>
    <Frame Caption="Mood" ID="2">
     <Appearance>
@@ -1585,7 +1925,6 @@
       </Appearance>
       <Function ID="110"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="202"/>
      </Button>
      <Button Caption="02" ID="212">
       <WindowState Visible="True" X="380" Y="0" Width="80" Height="50"/>
@@ -1594,7 +1933,6 @@
       </Appearance>
       <Function ID="111"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="203"/>
      </Button>
      <Button Caption="03" ID="213">
       <WindowState Visible="True" X="475" Y="0" Width="80" Height="50"/>
@@ -1603,7 +1941,6 @@
       </Appearance>
       <Function ID="112"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="204"/>
      </Button>
      <Button Caption="04" ID="214">
       <WindowState Visible="True" X="570" Y="0" Width="80" Height="50"/>
@@ -1612,7 +1949,6 @@
       </Appearance>
       <Function ID="113"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="205"/>
      </Button>
      <Button Caption="05" ID="215">
       <WindowState Visible="True" X="665" Y="0" Width="80" Height="50"/>
@@ -1621,7 +1957,6 @@
       </Appearance>
       <Function ID="114"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="206"/>
      </Button>
      <Button Caption="06" ID="216">
       <WindowState Visible="True" X="0" Y="60" Width="80" Height="50"/>
@@ -1630,7 +1965,6 @@
       </Appearance>
       <Function ID="115"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="207"/>
      </Button>
      <Button Caption="07" ID="217">
       <WindowState Visible="True" X="95" Y="60" Width="80" Height="50"/>
@@ -1639,7 +1973,6 @@
       </Appearance>
       <Function ID="116"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="208"/>
      </Button>
      <Button Caption="08" ID="218">
       <WindowState Visible="True" X="190" Y="60" Width="80" Height="50"/>
@@ -1648,7 +1981,6 @@
       </Appearance>
       <Function ID="117"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="209"/>
      </Button>
      <Button Caption="09" ID="219">
       <WindowState Visible="True" X="285" Y="60" Width="80" Height="50"/>
@@ -1657,7 +1989,6 @@
       </Appearance>
       <Function ID="118"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="210"/>
      </Button>
      <Button Caption="10" ID="220">
       <WindowState Visible="True" X="380" Y="60" Width="80" Height="50"/>
@@ -1666,7 +1997,6 @@
       </Appearance>
       <Function ID="119"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="211"/>
      </Button>
      <Button Caption="11" ID="221">
       <WindowState Visible="True" X="475" Y="60" Width="80" Height="50"/>
@@ -1675,7 +2005,6 @@
       </Appearance>
       <Function ID="120"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="212"/>
      </Button>
      <Button Caption="12" ID="222">
       <WindowState Visible="True" X="570" Y="60" Width="80" Height="50"/>
@@ -1684,7 +2013,6 @@
       </Appearance>
       <Function ID="121"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="213"/>
      </Button>
      <Button Caption="13" ID="223">
       <WindowState Visible="True" X="665" Y="60" Width="80" Height="50"/>
@@ -1693,7 +2021,6 @@
       </Appearance>
       <Function ID="122"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="214"/>
      </Button>
      <Button Caption="14" ID="224">
       <WindowState Visible="True" X="0" Y="120" Width="80" Height="50"/>
@@ -1702,7 +2029,6 @@
       </Appearance>
       <Function ID="123"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="215"/>
      </Button>
      <Button Caption="15" ID="225">
       <WindowState Visible="True" X="95" Y="120" Width="80" Height="50"/>
@@ -1711,7 +2037,6 @@
       </Appearance>
       <Function ID="124"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="216"/>
      </Button>
      <Button Caption="16" ID="226">
       <WindowState Visible="True" X="190" Y="120" Width="80" Height="50"/>
@@ -1720,7 +2045,6 @@
       </Appearance>
       <Function ID="125"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="217"/>
      </Button>
      <Button Caption="17" ID="227">
       <WindowState Visible="True" X="285" Y="120" Width="80" Height="50"/>
@@ -1729,7 +2053,6 @@
       </Appearance>
       <Function ID="126"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="218"/>
      </Button>
      <Button Caption="18" ID="228">
       <WindowState Visible="True" X="380" Y="120" Width="80" Height="50"/>
@@ -1738,7 +2061,6 @@
       </Appearance>
       <Function ID="127"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="219"/>
      </Button>
      <Button Caption="19" ID="229">
       <WindowState Visible="True" X="475" Y="120" Width="80" Height="50"/>
@@ -1747,7 +2069,6 @@
       </Appearance>
       <Function ID="128"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="220"/>
      </Button>
      <Button Caption="20" ID="230">
       <WindowState Visible="True" X="570" Y="120" Width="80" Height="50"/>
@@ -1756,7 +2077,6 @@
       </Appearance>
       <Function ID="129"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="221"/>
      </Button>
      <Button Caption="21" ID="231">
       <WindowState Visible="True" X="665" Y="120" Width="80" Height="50"/>
@@ -1765,7 +2085,6 @@
       </Appearance>
       <Function ID="130"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="222"/>
      </Button>
     </SoloFrame>
     <SoloFrame Caption="Mode" ID="200">
@@ -1782,7 +2101,6 @@
       </Appearance>
       <Function ID="100"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="199"/>
      </Button>
      <Button Caption="Chase" ID="202">
       <WindowState Visible="True" X="95" Y="0" Width="80" Height="50"/>
@@ -1791,7 +2109,6 @@
       </Appearance>
       <Function ID="101"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="200"/>
      </Button>
      <Button Caption="Standalone" ID="203">
       <WindowState Visible="True" X="190" Y="0" Width="80" Height="50"/>
@@ -1801,7 +2118,6 @@
       </Appearance>
       <Function ID="102"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="201"/>
      </Button>
      <Button Caption="Blackout" ID="204">
       <WindowState Visible="True" X="285" Y="0" Width="80" Height="50"/>
@@ -1818,7 +2134,6 @@
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
-     <Input ID="0" Universe="0" Channel="28"/>
      <SliderMode ValueDisplayStyle="Percentage">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="12">3</Channel>
@@ -1830,7 +2145,6 @@
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
-     <Input ID="0" Universe="0" Channel="29"/>
      <SliderMode ValueDisplayStyle="Percentage">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="12">2</Channel>
@@ -1842,7 +2156,6 @@
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
-     <Input ID="0" Universe="0" Channel="36"/>
      <SliderMode ValueDisplayStyle="Percentage" ChannelMode="Intensity">GrandMaster</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="255"/>
     </Slider>
@@ -1853,7 +2166,6 @@
       </Appearance>
       <Function ID="131"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="223"/>
      </Button>
      <Button Caption="23" ID="233">
       <WindowState Visible="True" X="145" Y="610" Width="80" Height="45"/>
@@ -1862,7 +2174,6 @@
       </Appearance>
       <Function ID="132"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="224"/>
      </Button>
      <Button Caption="24" ID="234">
       <WindowState Visible="True" X="240" Y="610" Width="80" Height="45"/>
@@ -1871,7 +2182,6 @@
       </Appearance>
       <Function ID="133"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="225"/>
      </Button>
      <Button Caption="25" ID="235">
       <WindowState Visible="True" X="335" Y="610" Width="80" Height="45"/>
@@ -1880,7 +2190,6 @@
       </Appearance>
       <Function ID="134"/>
       <Action>Toggle</Action>
-      <Input ID="0" Universe="0" Channel="226"/>
      </Button>
      <Button Caption="(-)" ID="370">
       <WindowState Visible="True" X="430" Y="610" Width="80" Height="45"/>
