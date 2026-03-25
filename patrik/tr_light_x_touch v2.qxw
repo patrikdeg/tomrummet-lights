@@ -745,6 +745,66 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>4</FixtureGroup>
   </Function>
+  <Function ID="250" Type="RGBMatrix" Name="Mood Warm Glow">
+   <Speed FadeIn="2000" FadeOut="2000" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Noise</Algorithm>
+   <Color Index="0">4294944000</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+   <Property Name="noisePercentage" Value="Low"/>
+  </Function>
+  <Function ID="251" Type="RGBMatrix" Name="Mood Cold Wash">
+   <Speed FadeIn="0" FadeOut="1000" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <Color Index="0">4278233855</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="252" Type="RGBMatrix" Name="Mood Ambient Fade">
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <Color Index="0">4294944000</Color>
+   <Color Index="1">4278233855</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>4</FixtureGroup>
+  </Function>
+  <Function ID="260" Type="Chaser" Name="Revo Pattern Select">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="4294967294" FadeOut="0" Note="01">110</Step>
+   <Step Number="1" FadeIn="0" Hold="4294967294" FadeOut="0" Note="02">111</Step>
+   <Step Number="2" FadeIn="0" Hold="4294967294" FadeOut="0" Note="03">112</Step>
+   <Step Number="3" FadeIn="0" Hold="4294967294" FadeOut="0" Note="04">113</Step>
+   <Step Number="4" FadeIn="0" Hold="4294967294" FadeOut="0" Note="05">114</Step>
+   <Step Number="5" FadeIn="0" Hold="4294967294" FadeOut="0" Note="06">115</Step>
+   <Step Number="6" FadeIn="0" Hold="4294967294" FadeOut="0" Note="07">116</Step>
+   <Step Number="7" FadeIn="0" Hold="4294967294" FadeOut="0" Note="08">117</Step>
+   <Step Number="8" FadeIn="0" Hold="4294967294" FadeOut="0" Note="09">118</Step>
+   <Step Number="9" FadeIn="0" Hold="4294967294" FadeOut="0" Note="10">119</Step>
+   <Step Number="10" FadeIn="0" Hold="4294967294" FadeOut="0" Note="11">120</Step>
+   <Step Number="11" FadeIn="0" Hold="4294967294" FadeOut="0" Note="12">121</Step>
+   <Step Number="12" FadeIn="0" Hold="4294967294" FadeOut="0" Note="13">122</Step>
+   <Step Number="13" FadeIn="0" Hold="4294967294" FadeOut="0" Note="14">123</Step>
+   <Step Number="14" FadeIn="0" Hold="4294967294" FadeOut="0" Note="15">124</Step>
+   <Step Number="15" FadeIn="0" Hold="4294967294" FadeOut="0" Note="16">125</Step>
+   <Step Number="16" FadeIn="0" Hold="4294967294" FadeOut="0" Note="17">126</Step>
+   <Step Number="17" FadeIn="0" Hold="4294967294" FadeOut="0" Note="18">127</Step>
+   <Step Number="18" FadeIn="0" Hold="4294967294" FadeOut="0" Note="19">128</Step>
+   <Step Number="19" FadeIn="0" Hold="4294967294" FadeOut="0" Note="20">129</Step>
+   <Step Number="20" FadeIn="0" Hold="4294967294" FadeOut="0" Note="21">130</Step>
+   <Step Number="21" FadeIn="0" Hold="4294967294" FadeOut="0" Note="22">131</Step>
+   <Step Number="22" FadeIn="0" Hold="4294967294" FadeOut="0" Note="23">132</Step>
+   <Step Number="23" FadeIn="0" Hold="4294967294" FadeOut="0" Note="24">133</Step>
+   <Step Number="24" FadeIn="0" Hold="4294967294" FadeOut="0" Note="25">134</Step>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -1763,6 +1823,7 @@
   </Frame>
    <Frame Caption="Mood" ID="2">
     <Appearance>
+     <BackgroundColor>4278190080</BackgroundColor>
      <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
     </Appearance>
     <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
@@ -1771,6 +1832,109 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
+    <SoloFrame Caption="Stämning" ID="600">
+     <WindowState Visible="True" X="50" Y="50" Width="500" Height="80"/>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Warm Glow" ID="601">
+      <WindowState Visible="True" X="0" Y="0" Width="120" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4294944000</BackgroundColor>
+       <ForegroundColor>4278190080</ForegroundColor>
+      </Appearance>
+      <Function ID="250"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Cold Wash" ID="602">
+      <WindowState Visible="True" X="125" Y="0" Width="120" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4278233855</BackgroundColor>
+      </Appearance>
+      <Function ID="251"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Ambient Fade" ID="603">
+      <WindowState Visible="True" X="250" Y="0" Width="120" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4286578816</BackgroundColor>
+      </Appearance>
+      <Function ID="252"/>
+      <Action>Toggle</Action>
+     </Button>
+    </SoloFrame>
+    <SoloFrame Caption="Revo Mode" ID="610">
+     <WindowState Visible="True" X="50" Y="150" Width="500" Height="80"/>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Pattern" ID="611">
+      <WindowState Visible="True" X="0" Y="0" Width="100" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4282664004</BackgroundColor>
+      </Appearance>
+      <Function ID="100"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Chase" ID="612">
+      <WindowState Visible="True" X="105" Y="0" Width="100" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4282664004</BackgroundColor>
+      </Appearance>
+      <Function ID="101"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Standalone" ID="613">
+      <WindowState Visible="True" X="210" Y="0" Width="100" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4282664004</BackgroundColor>
+      </Appearance>
+      <Function ID="102"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Blackout" ID="614">
+      <WindowState Visible="True" X="315" Y="0" Width="100" Height="60"/>
+      <Appearance>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <ForegroundColor>4294967295</ForegroundColor>
+      </Appearance>
+      <Function ID="103"/>
+      <Action>Toggle</Action>
+     </Button>
+    </SoloFrame>
+    <CueList Caption="Revo Pattern" ID="620">
+     <WindowState Visible="True" X="50" Y="250" Width="500" Height="350"/>
+     <Appearance>
+      <BackgroundColor>4282664004</BackgroundColor>
+     </Appearance>
+     <Chaser>260</Chaser>
+    </CueList>
+    <Slider Caption="Revo Dim" ID="630" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="600" Y="150" Width="80" Height="300"/>
+     <Appearance>
+      <BackgroundColor>4282664004</BackgroundColor>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Percentage" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="12">3</Channel>
+      <Channel Fixture="13">3</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="Revo Spd" ID="631" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="700" Y="150" Width="80" Height="300"/>
+     <Appearance>
+      <BackgroundColor>4282664004</BackgroundColor>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Percentage" Monitor="true">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="12">2</Channel>
+      <Channel Fixture="13">2</Channel>
+     </Level>
+    </Slider>
   </Frame>
    <Frame Caption="Revo III - lab" ID="3">
     <Appearance>
