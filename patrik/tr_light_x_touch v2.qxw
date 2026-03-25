@@ -551,8 +551,8 @@
   </Function>
   <Function ID="103" Type="Scene" Name="Revo Blackout">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="12">3,0</FixtureVal>
-   <FixtureVal ID="13">3,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0,2,0,3,0</FixtureVal>
+   <FixtureVal ID="13">0,0,1,0,2,0,3,0</FixtureVal>
   </Function>
   <Function ID="110" Type="Scene" Name="Revo Sel 01">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
