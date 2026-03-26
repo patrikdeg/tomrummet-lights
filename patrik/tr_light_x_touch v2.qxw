@@ -292,6 +292,7 @@
   </FixtureGroup>
   <ChannelsGroup ID="0" Name="Side RGB" Value="255">14,1,14,2,14,3,14,7,14,8,14,9,14,13,14,14,14,15,14,19,14,20,14,21,14,25,14,26,14,27,14,31,14,32,14,33,14,37,14,38,14,39,14,43,14,44,14,45,17,1,17,2,17,3,17,7,17,8,17,9,17,13,17,14,17,15,17,19,17,20,17,21,17,25,17,26,17,27,17,31,17,32,17,33,17,37,17,38,17,39,17,43,17,44,17,45,16,1,16,2,16,3,16,7,16,8,16,9,16,13,16,14,16,15,16,19,16,20,16,21,16,25,16,26,16,27,16,31,16,32,16,33,16,37,16,38,16,39,16,43,16,44,16,45,18,1,18,2,18,3,18,7,18,8,18,9,18,13,18,14,18,15,18,19,18,20,18,21,18,25,18,26,18,27,18,31,18,32,18,33,18,37,18,38,18,39,18,43,18,44,18,45</ChannelsGroup>
   <ChannelsGroup ID="1" Name="Back RGB" Value="255">6,1,6,2,6,3,6,7,6,8,6,9,6,13,6,14,6,15,6,19,6,20,6,21,6,25,6,26,6,27,6,31,6,32,6,33,6,37,6,38,6,39,6,43,6,44,6,45,7,1,7,2,7,3,7,7,7,8,7,9,7,13,7,14,7,15,7,19,7,20,7,21,7,25,7,26,7,27,7,31,7,32,7,33,7,37,7,38,7,39,7,43,7,44,7,45,8,1,8,2,8,3,8,7,8,8,8,9,8,13,8,14,8,15,8,19,8,20,8,21,8,25,8,26,8,27,8,31,8,32,8,33,8,37,8,38,8,39,8,43,8,44,8,45,9,1,9,2,9,3,9,7,9,8,9,9,9,13,9,14,9,15,9,19,9,20,9,21,9,25,9,26,9,27,9,31,9,32,9,33,9,37,9,38,9,39,9,43,9,44,9,45</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="Smoke" Value="255">3,0,3,1</ChannelsGroup>
   <Function ID="3" Type="Scene" Name="smoke">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">0,255</FixtureVal>
@@ -1085,13 +1086,14 @@
      <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
     </Slider>
-    <Slider Caption="Enc 8" ID="307" WidgetStyle="Knob" InvertedAppearance="false">
+    <Slider Caption="Smoke Int" ID="307" WidgetStyle="Knob" InvertedAppearance="false">
      <WindowState Visible="True" X="715" Y="10" Width="80" Height="80"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Input ID="0" Universe="0" Channel="17"/>
+     <SliderMode ValueDisplayStyle="Percentage" ChannelsGroupID="2">ChannelGroupMaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255"/>
     </Slider>
     <Slider Caption="Enc 9" ID="308" WidgetStyle="Knob" InvertedAppearance="false">
      <WindowState Visible="True" X="850" Y="10" Width="80" Height="80"/>
@@ -1236,7 +1238,7 @@
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
       <Function ID="3"/>
-      <Action>Toggle</Action>
+      <Action>Flash</Action>
       <Input ID="0" Universe="0" Channel="151"/>
      </Button>
      <SoloFrame Caption="Bak-färger" ID="402">
