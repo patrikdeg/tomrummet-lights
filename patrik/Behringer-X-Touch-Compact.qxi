@@ -34,7 +34,7 @@
  <Channel Number="14"><Name>Encoder A5</Name><Type>Encoder</Type><Movement Sensitivity="1"/></Channel>
  <Channel Number="15"><Name>Encoder A6</Name><Type>Encoder</Type><Movement Sensitivity="1"/></Channel>
  <Channel Number="16"><Name>Encoder A7</Name><Type>Encoder</Type><Movement Sensitivity="1"/></Channel>
- <Channel Number="17"><Name>Encoder A8</Name><Type>Encoder</Type><Movement Sensitivity="1"/></Channel>
+ <Channel Number="17"><Name>Encoder A8</Name><Type>Encoder</Type><Movement Sensitivity="10"/></Channel>
  <Channel Number="18"><Name>Encoder A9</Name><Type>Encoder</Type><Movement Sensitivity="1"/></Channel>
  <Channel Number="19"><Name>Encoder A10</Name><Type>Encoder</Type><Movement Sensitivity="1"/></Channel>
  <Channel Number="20"><Name>Encoder A11</Name><Type>Encoder</Type><Movement Sensitivity="1"/></Channel>
