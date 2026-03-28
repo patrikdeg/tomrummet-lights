@@ -1238,7 +1238,7 @@
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
       <Function ID="3"/>
-      <Action>Flash</Action>
+      <Action>Toggle</Action>
       <Input ID="0" Universe="0" Channel="151"/>
      </Button>
      <SoloFrame Caption="Bak-färger" ID="402">
